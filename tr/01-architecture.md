@@ -8,6 +8,8 @@
 
 # Tasarım şablonları
 
+http://en.wikipedia.org/wiki/Design_pattern_(computer_science)
+
 ## Oluşturucu
 
 ### Abstract Factory
