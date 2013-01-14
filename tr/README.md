@@ -33,30 +33,3 @@ Bu belge lab2023 - internet teknolojilerinin geliştirme standartlarını içeri
 	* Background jobs
 	* Mail 
 	* Full text search
-
-* Deployment
-
-	* Capistrono
-	* Ubuntu server
-	* Nginx
-	* Unicorn
-	* RVM
-	* Backup
-
-* Tdd
-	
-	* Growl
-	* Rspec
-	* Shoulda
-
-* Geliştirme Ortamı
-
-	* Pow
-	* XCode
-	* Homebrew
-
-* Mükemmel proje
-
-	* CDN
-	* Learderboard - Scoreboard
-	* API
