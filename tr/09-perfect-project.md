@@ -1,1 +1,4 @@
-Mükemmel Proje
+# CDN
+# Learderboard - Scoreboard
+# API
+# AARRR Metrics
