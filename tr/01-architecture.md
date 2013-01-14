@@ -6,37 +6,37 @@
 ## ISP	- Interface segregation principle
 ## DIP	- Dependency inversion principle
 
-# Tasarım şablonları
+# Design patterns
 
 http://en.wikipedia.org/wiki/Design_pattern_(computer_science)
 
 ## Oluşturucu
 
+### Factory
 ### Abstract Factory
-### Builder
-### Factory Method
-### Prototype
 ### Singleton
+### Builder
+### Prototype
 
 ## Yapısal
 
 ### Adapter
 ### Bridge
 ### Facede
-### Decorator
 ### Composite
-### Flyweight
+### Decorator
 ### Proxy
+### Flyweight
 
 ## Davranışsal
 
 ### Command
-### Memento
-### Strategy
 ### Iterator
+### Memento
 ### State
+### Observer
+### Strategy
 ### Chain of responsibility
 ### Mediator
-### Observer
-### Template Method
 ### Visitor
+### Template Method
