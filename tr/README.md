@@ -8,25 +8,6 @@ Bu belge lab2023 - internet teknolojilerinin geliştirme standartlarını içeri
 	* Tasarım şablonları
 	* Rest
 
-* Proje yönetimi ve çevik süreçler
-
-	* Scrum
-	* Semver
-	* Kanban
-
-* Araçlar ve servisler
-	
-	* Araçlar
-		* IDE
-			* RubyMine
-			* Sublimetext2
-		* Source Tree
-
-	* Servisler
-		* Github
-		* Balsemiq
-		* Gtmetric
-		* Rails Console
 
 * İstemci taraflı teknolojiler
 
