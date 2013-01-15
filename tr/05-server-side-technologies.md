@@ -32,11 +32,14 @@
 ## NoSQL
 
 ### Redis
-
+Redisi şimdilik Background jobs larda kullanıyoruz.
 # Background jobs
-
+Kullancıyı süre olarak bekletecek işlemleri arkaplan işlerine alıyoruz.
 ## Resque
-
+[resque](https://github.com/defunkt/resque) Arkaplan işlerini yönetir.
+## resque_mailer
+[resque_mailer](https://github.com/zapnap/resque_mailer) mailleri arkaplan işlerine alıyor.
 # Full text search
-
+Proje başlangıcında full text search kullanmıyoruz. Projenin ilerleyen aşamalarında durumuna göre entegre ediyoruz.
 ## Sphinx
+Rails' te [thinking-sphinx](https://github.com/pat/thinking-sphinx) gem' i ile kullanıyoruz. Detaylı döküman http://pat.github.com/ts/en/
