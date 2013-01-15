@@ -9,6 +9,10 @@
 	
 ### Source Tree
 
+Genellikle bu işlemleri IDE den yapıyoruz ancak gitflow'u desteklediği için ide dışında kullanıyoruz. Ayrıca Github ile entegre çalışıyor.
+
+http://www.sourcetreeapp.com/
+
 # Servisler
 	
 ## Github
