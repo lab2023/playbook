@@ -8,8 +8,8 @@ Assetler, db, web, uygulama sunucusu ayrı ayrı sunucular olabilmelidir.
 
 # API
 
-https://github.com/applicake/doorkeeper
+* https://github.com/applicake/doorkeeper
 
 # AARRR Metrics
 
-https://github.com/paulasmuth/fnordmetric
+* https://github.com/paulasmuth/fnordmetric
