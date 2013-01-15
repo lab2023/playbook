@@ -3,7 +3,12 @@
 ## IDE ve Editör
 	
 ### RubyMine
-### Sublimetext2
+
+http://www.jetbrains.com/ruby/
+
+### Sublimetext
+
+http://www.sublimetext.com/
 
 ## Diğer
 	
