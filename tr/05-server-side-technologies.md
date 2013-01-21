@@ -22,6 +22,8 @@
 * [haml](http://haml-lang.com) - Markup language.
 * [simple_form](https://github.com/plataformatec/simple_form) - Form generator.
 * [bootstrap-sass](https://github.com/thomas-mcdonald/bootstrap-sass) Twitter Bootstrap' ın Sass versiyonunu Rails' e entegre ediyor.
+* [bootstrap-wysihtml5-rails](https://github.com/Nerian/bootstrap-wysihtml5-rails) Bootstrap temalı HTML5 wysing editör.
+* [bootstrap-datepicker-rails](https://github.com/Nerian/bootstrap-datepicker-rails) Bootstrap temalı date picker.
 
 # DB
 
