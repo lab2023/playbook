@@ -13,7 +13,7 @@ veritabanını nasıl kullandığımızı dökümante edilmiştir. Aşağıdaki 
 * Backup Restore
 * Active Record ve PostgreSQL
 
-* 9.2 Doc PDF http://www.postgresql.org/files/documentation/pdf/9.2/postgresql-9.2-A4.pdf
+Daha detaylı bilgi için  http://www.postgresql.org/files/documentation/pdf/9.2/postgresql-9.2-A4.pdf bakabilirsiniz.
 
 ## Kurulum
 
