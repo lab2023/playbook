@@ -32,13 +32,21 @@
 
 * http://www.postgresql.org/docs/9.2/interactive/runtime-config-logging.html
 
-## Auto Vacum ve Analiz
+### Auto Vacum ve Analiz
+
+* http://www.postgresql.org/docs/9.2/interactive/routine-vacuuming.html#AUTOVACUUM
+* http://www.postgresql.org/docs/9.2/interactive/runtime-config-autovacuum.html
 
 ## Partition
 
 ## Replikasyon
 
+* http://www.postgresql.org/docs/9.2/static/runtime-config-replication.html
+
 ## Backup - Restore
+
+* http://www.postgresql.org/docs/9.2/interactive/backup.html
+* http://muhammetdilek.dudupress.com/articles/postgresql-yedek-alma-ve-geri-yukleme
 
 ## Kaynaklar
 
