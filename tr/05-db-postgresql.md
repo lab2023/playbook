@@ -1,5 +1,18 @@
 ## Genel Bilgiler 
 
+Bu belgede lab2023 - internet teknolojileri olarak özel projelerde ve SAAS ürünlerimizde kullandığımız PostgreSQL
+veritabanını nasıl kullandığımızı dökümante edilmiştir. Aşağıdaki konuları içerir,
+
+* Kurulum
+* DB Yaratma
+* Kullanıcılar ve Roller
+* Ayarlar
+* Performans
+* Partition
+* Replikasyon
+* Backup Restore
+* Active Record ve PostgreSQL
+
 * 9.2 Doc PDF http://www.postgresql.org/files/documentation/pdf/9.2/postgresql-9.2-A4.pdf
 
 ## Kurulum
