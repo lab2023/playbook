@@ -25,16 +25,6 @@
 * [bootstrap-wysihtml5-rails](https://github.com/Nerian/bootstrap-wysihtml5-rails) Bootstrap temalı HTML5 wysing editör.
 * [bootstrap-datepicker-rails](https://github.com/Nerian/bootstrap-datepicker-rails) Bootstrap temalı date picker.
 
-# DB
-
-## RDBMS 
-### MySQL
-### PostgreSQL
-
-## NoSQL
-
-### Redis
-Redisi şimdilik Background jobs larda kullanıyoruz.
 # Background jobs
 Kullancıyı süre olarak bekletecek işlemleri arkaplan işlerine alıyoruz.
 ## Resque
