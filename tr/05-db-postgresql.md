@@ -16,9 +16,21 @@
 
 ## Ayarları 
 
-### postgresql.conf
+### Bağlantı ve Yetkilendirme
 
-### pg_hba.conf
+* http://www.postgresql.org/docs/9.2/interactive/runtime-config-connection.html
+
+### Kaynak Tüketimi
+
+* http://www.postgresql.org/docs/9.2/interactive/runtime-config-resource.html
+
+### Logların yazımı
+
+* http://www.postgresql.org/docs/9.2/interactive/runtime-config-wal.html
+
+### Log Ayarları
+
+* http://www.postgresql.org/docs/9.2/interactive/runtime-config-logging.html
 
 ## Auto Vacum ve Analiz
 
@@ -33,6 +45,10 @@
 ### Genel kaynaklar
 
 * http://www.postgresql.org/docs/9.2/interactive/index.html
+
+### Ayarlar
+
+* http://www.postgresql.org/docs/9.2/interactive/runtime-config.html
 
 ### Replikasyon kaynakları
 
