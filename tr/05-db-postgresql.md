@@ -29,3 +29,16 @@
 ## Backup - Restore
 
 ## Kaynaklar
+
+### Genel kaynaklar
+
+* http://www.postgresql.org/docs/9.2/interactive/index.html
+
+### Replikasyon kaynakları
+
+* http://www.postgresql.org/docs/9.2/static/runtime-config-replication.html
+
+### Backup restore
+
+* http://www.postgresql.org/docs/9.2/interactive/backup.html
+* http://muhammetdilek.dudupress.com/articles/postgresql-yedek-alma-ve-geri-yukleme
