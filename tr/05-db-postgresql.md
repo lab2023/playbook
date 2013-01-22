@@ -1,5 +1,7 @@
 ## Genel Bilgiler 
 
+* 9.2 Doc PDF http://www.postgresql.org/files/documentation/pdf/9.2/postgresql-9.2-A4.pdf
+
 ## Kurulum
 
 ### Ubuntu server
