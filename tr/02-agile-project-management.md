@@ -8,4 +8,4 @@ Versiyonlama için http://semver.org/ kullanılır.
 
 # Kanban
 
-Kanban olarak http://huboard.com/ kullanılır.
+Kanban olarak http://kanban.lab2023.com kullanılır.
