@@ -37,6 +37,48 @@ Daha doğru bir yaklaşım emaili Email sınıfının, login logout işlemlerini
 silinmesi işlemlerine DAO sınıfının bakması gerekmektedir. Eğer bir sınıfın birden fazla sorumluluğu olursa o sınıfın ileride
 modifiye edilmesi yüksek bir olasılıktır ki buda açık kapalı prensibine aykırıdır.
 
+
+```ruby
+class User
+  attr_accessor :username, :password, :email
+end
+```
+
+
+```ruby
+class UserDao
+  def create username, password, email
+    # Kodlar
+  end
+  
+  def delete username
+    # Kodlar
+  end
+end
+```
+
+
+```ruby
+class SendEmail
+  def send_register_email user
+    # Kodlar
+  end
+end
+```
+
+
+```ruby
+class Session
+  def login user, password
+    # Kodlar
+  end
+  
+  def logout user
+    # Kodlar
+  end
+end
+```
+
 ## OCP	- Açık Kapalı Prensibi (Open/closed principle)
 
 Bu prensibe göre programlar geliştirilmeye açık ama değiştirilmeye kapalı olmalıdır.
