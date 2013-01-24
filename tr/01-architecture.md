@@ -33,11 +33,27 @@ class User
 end
 ```
 
-Bu daha doğru bir yaklaşım emaili Email sınıfının, login logout işlemlerini Session sınıfının, hatta kullanıcının kaydedilip,
+Daha doğru bir yaklaşım emaili Email sınıfının, login logout işlemlerini Session sınıfının, hatta kullanıcının kaydedilip,
 silinmesi işlemlerine DAO sınıfının bakması gerekmektedir. Eğer bir sınıfın birden fazla sorumluluğu olursa o sınıfın ileride
 modifiye edilmesi yüksek bir olasılıktır ki buda açık kapalı prensibine aykırıdır.
 
 ## OCP	- Açık Kapalı Prensibi (Open/closed principle)
+
+Bu prensibe göre programlar geliştirilmeye açık ama değiştirilmeye kapalı olmalıdır.
+
+Programcının görevi müşterisinin ihtiyacını çözmektir ancak müşterinin ihtiyaçları sürekli değişmektedir. Hiç bir
+program zaman için müşterisinin ihtiyacını karşılamaya yetmeyecektir. Çevremizde müşterilerine eski programları 
+satıp, yeni talepler gelince köşe bucak kaçan yazılım firmaları vardır.
+
+Yazılımlara yeni talep gelmesi <b>doğal bir süreç</b>tir. Ivar Jacobson söyle demiştir. "Her program görev süresince
+değişikliğe uğrar. Bu ilk sürümden ötesi düşünülen programların yazılımında göz önünde bulundurulmalıdır." Yani iyi bir 
+yazılım kolay geliştirilebilen, projenin ilerleyen aşamalarında müşterinin diğer isteklerine destek verebilen bir 
+yazılımdır.
+
+Açık kapalı prensibine göre bir yazılıma yeni talepler geldiğinde, programcı yeni kodlar yazarak bunları karşılabilmelidir.
+Eğer istenen yeni talep eski yazılan kodları değiştirmeyi gerekiyorsa eski kodlar açık kapalı prensibine uygun yazılmamış
+demektir.
+
 ## LSP	- Liskov substitution principle
 ## ISP	- Interface segregation principle
 ## DIP	- Dependency inversion principle
