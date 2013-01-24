@@ -81,20 +81,36 @@ end
 
 ## OCP	- Açık Kapalı Prensibi (Open/closed principle)
 
-Bu prensibe göre programlar geliştirilmeye açık ama değiştirilmeye kapalı olmalıdır.
+Ivar Jacobson söyle demiştir. "Her program görev süresince değişikliğe uğrar. Bu ilk sürümden ötesi düşünülen 
+programların yazılımında göz önünde bulundurulmalıdır." Yani mutlaka ama mutlaka yazılımınız ileride gelen yeni 
+istekleri karşılabilecek kapasitede olmalıdır. Sektörde müşterilerine yazılımları satıp yeni istekler gelince 
+köşe bucak kaçan bir sürü yazılım firması vardır.
 
-Programcının görevi müşterisinin ihtiyacını çözmektir ancak müşterinin ihtiyaçları sürekli değişmektedir. Hiç bir
-program zaman için müşterisinin ihtiyacını karşılamaya yetmeyecektir. Çevremizde müşterilerine eski programları 
-satıp, yeni talepler gelince köşe bucak kaçan yazılım firmaları vardır.
+Bu prensibe göre programlar geliştirilmeye açık ama değiştirilmeye kapalı olmalıdır. Yani yeni bir istek geldiğinde
+eski yazdığınız kodları değiştirmemeli yeni kodlar yazarak müşterinin yeni isteklerini karşılamalısınız. Kodlar
+değişeme kapalı, geliştirilmeye açık olmalıdır. 
 
-Yazılımlara yeni talep gelmesi <b>doğal bir süreç</b>tir. Ivar Jacobson söyle demiştir. "Her program görev süresince
-değişikliğe uğrar. Bu ilk sürümden ötesi düşünülen programların yazılımında göz önünde bulundurulmalıdır." Yani iyi bir 
-yazılım kolay geliştirilebilen, projenin ilerleyen aşamalarında müşterinin diğer isteklerine destek verebilen bir 
-yazılımdır.
+Basit bir örnek verelim. Müşterimiz bize AVEA ve Turkcell'den SMS atan bir program istedi diyelim. 
 
-Açık kapalı prensibine göre bir yazılıma yeni talepler geldiğinde, programcı yeni kodlar yazarak bunları karşılabilmelidir.
-Eğer istenen yeni talep eski yazılan kodları değiştirmeyi gerekiyorsa eski kodlar açık kapalı prensibine uygun yazılmamış
-demektir.
+```ruby
+class Sms
+  send_sms number, msg
+    if number is turkcell
+      # Turkcell'den SMS gönder
+    elsif number is avea
+      # Avea'dan SMS gönder
+    end
+  end
+end
+```
+
+Yukarıda kod tam bir beladır. İleride müşteriniz Vodofan'dan bir kampanya alırsanız. Yukarıda ki kodu switch'e çevirmeniz
+gerekecektir. Yani eski yazdığınız kodu değiştirmeniz gerekecektir. Bunun yerine aşağıdaki kod daha kalitelidir.
+
+```ruby
+# Kadu yazalım
+
+```
 
 ## LSP	- Liskov substitution principle
 ## ISP	- Interface segregation principle
