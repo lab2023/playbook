@@ -25,6 +25,7 @@
 * [bootstrap-wysihtml5-rails](https://github.com/Nerian/bootstrap-wysihtml5-rails) Bootstrap temalı HTML5 wysing editör.
 * [bootstrap-datepicker-rails](https://github.com/Nerian/bootstrap-datepicker-rails) Bootstrap temalı date picker.
 * [breadcrumbs_on_rails](https://github.com/weppos/breadcrumbs_on_rails) Breadcrumb(ekmek kırıntısı) için kullanıyoruz.
+* [globalize3](https://github.com/svenfuchs/globalize3) Model katmanına çoklu dil desteği eklemek için kullanıyoruz.
 
 # Background jobs
 Kullancıyı süre olarak bekletecek işlemleri arkaplan işlerine alıyoruz.
