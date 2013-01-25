@@ -37,3 +37,11 @@ Web sitesinin performans analizi için http://gtmetrix.com/ kullanıyoruz.
 Github issue ve milestonelardan aldığı bilgiler ile Scrum yapmamıza yarayan yazılımdır. Kendisini lab2023.com altına kuruyoruz.
 
 http://huboard.com/
+
+## İş Takibi
+
+Proje dışındaki yapılacak işler için https://www.wunderlist.com/#/login kullanıyoruz.
+
+## Dökümantasyon
+
+Belgelendirme için https://drive.google.com kullanıyoruz.
