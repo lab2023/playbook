@@ -26,6 +26,10 @@
 * [bootstrap-datepicker-rails](https://github.com/Nerian/bootstrap-datepicker-rails) Bootstrap temalı date picker.
 * [breadcrumbs_on_rails](https://github.com/weppos/breadcrumbs_on_rails) Breadcrumb(ekmek kırıntısı) için kullanıyoruz.
 * [globalize3](https://github.com/svenfuchs/globalize3) Model katmanına çoklu dil desteği eklemek için kullanıyoruz.
+* [devise_invitable](https://github.com/scambra/devise_invitable) Kullanıcı davet sistemi için kullanıyoruz. İsmindende anlaşılacağı gibi devise gemi ile birlikte çalışıyor.
+* [sextant](https://github.com/schneems/sextant) Geliştirme sürecinde route' ları veiwde gösteren bir gem. rails 4 ile birlikte varsayılan olarak geliyor.
+* [rails_panel](https://github.com/dejan/rails_panel) Geliştirme sürecinde sql sürelerini ve sayfa yüklenme sürelerini gösteriyor. Gemi kullanabilmek için [RailsPanel](https://chrome.google.com/webstore/detail/railspanel/gjpfobpafnhjhbajcjgccbbdofdckggg) chrome eklentisine iytiyacımız var.
+* [rails_config](https://github.com/railsjedi/rails_config) Projeye config ayarları eklememizi sağlıyor.
 
 # Background jobs
 Kullancıyı süre olarak bekletecek işlemleri arkaplan işlerine alıyoruz.
