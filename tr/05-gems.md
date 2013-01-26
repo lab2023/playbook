@@ -5,8 +5,7 @@
 ### Twitter Bootstrap
 
 #### bootstrap-saas
-
-**Açıklama:** Twitter Bootstrap' ın Sass versiyonunu Rails' e entegre ediyor. 
+Twitter Bootstrap' ın Sass versiyonunu Rails' e entegre ediyor. 
 
 * https://www.ruby-toolbox.com/categories/css_with_ruby#bootstrap-sass
 * https://github.com/thomas-mcdonald/bootstrap-sass
@@ -15,8 +14,7 @@
 **Kaynaklar**
 
 #### bootstrap-wysihtml5-rails
-
-**Açıklama:** Bootstrap temalı HTML5 wysing editör.
+Bootstrap temalı HTML5 wysing editör.
 
 * https://www.ruby-toolbox.com/projects/bootstrap-wysihtml5-rails
 * https://github.com/Nerian/bootstrap-wysihtml5-rails
