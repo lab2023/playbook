@@ -1,4 +1,4 @@
-# Dağınık Mimari
+# Dağıtık Mimari
 
 Assetler, db, web, uygulama sunucusu ayrı ayrı sunucular olabilmelidir.
 
