@@ -1,7 +1,5 @@
 # Ruby Gems
 
-# Ruby Gems
-
 ## Client Side
 
 ### Twitter Bootstrap
@@ -25,8 +23,6 @@
 * http://rubydoc.info/gems/bootstrap-wysihtml5-rails/frames
 
 **Kaynaklar**
-
-*
 
 
 * [bootstrap-datepicker-rails](https://github.com/Nerian/bootstrap-datepicker-rails) Bootstrap temalı date picker.
