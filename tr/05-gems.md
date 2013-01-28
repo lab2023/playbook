@@ -30,7 +30,7 @@ Bootstrap temalı HTML5 wysing editör.
 * [client_side_validations](https://github.com/bcardarella/client_side_validations) - Modeldeki validasyonları alıp javascript ile client side' ta yapıyor.
 * [compass-rails](https://github.com/chriseppstein/compass) - Sass mixin kütüphanesi.
 * [simple_form](https://github.com/plataformatec/simple_form) - Form generator.
-* [select2-rails](https://github.com/argerim/select2-rails) [JQuery Select Box](http://ivaynberg.github.com/select2/) kütüphanesini projeye eklememizi sağlıyor. 
+* [select2-rails](https://github.com/argerim/select2-rails) - [JQuery Select Box](http://ivaynberg.github.com/select2/) kütüphanesini projeye eklememizi sağlıyor. 
 
 
 ## Server Side
