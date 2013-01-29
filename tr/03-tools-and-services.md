@@ -36,7 +36,8 @@ Web sitesinin performans analizi için http://gtmetrix.com/ kullanıyoruz.
 
 Github issue ve milestonelardan aldığı bilgiler ile Scrum yapmamıza yarayan yazılımdır. Kendisini lab2023.com altına kuruyoruz.
 
-http://huboard.com/
+* http://huboard.com/
+* http://kanban.lab2023.com
 
 ## İş Takibi
 
@@ -45,3 +46,9 @@ Proje dışındaki yapılacak işler için https://www.wunderlist.com/#/login ku
 ## Dökümantasyon
 
 Belgelendirme için https://drive.google.com kullanıyoruz.
+
+## Zamanlanmış Görev Düzenleyici
+
+Bizler Ruby uygulamalarında Whenever gemini kullanmamıza rağmen manuel cron yaratacaksak corntab.com sitesini kullanıyoruz.
+
+* http://www.corntab.com/pages/crontab-gui
