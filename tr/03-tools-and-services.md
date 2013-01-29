@@ -52,3 +52,12 @@ Belgelendirme için https://drive.google.com kullanıyoruz.
 Bizler Ruby uygulamalarında Whenever gemini kullanmamıza rağmen manuel cron yaratacaksak corntab.com sitesini kullanıyoruz.
 
 * http://www.corntab.com/pages/crontab-gui
+
+## HTML den HAML
+
+* http://html2haml.heroku.com/
+
+## JS den CoffeScript
+
+* http://js2cs.nodejitsu.com/
+
