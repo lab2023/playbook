@@ -52,5 +52,4 @@ Bootstrap temalı HTML5 wysing editör.
 ## Development Tools
 
 * [better_errors](https://github.com/charliesome/better_errors) - Rails' in standart error sayfasını daha kullanışlı bir sayafa ile değiştiriyor.
-* [rails_panel](https://github.com/dejan/rails_panel) Geliştirme sürecinde sql sürelerini ve sayfa yüklenme sürelerini gösteriyor. Gemi kullanabilmek için [RailsPanel](https://chrome.google.com/webstore/detail/railspanel/gjpfobpafnhjhbajcjgccbbdofdckggg) chrome eklentisine iytiyacımız var.
 * [sextant](https://github.com/schneems/sextant) Geliştirme sürecinde route' ları veiwde gösteren bir gem. rails 4 ile birlikte varsayılan olarak geliyor.
