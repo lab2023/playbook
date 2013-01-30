@@ -2,15 +2,20 @@
 
 ## Mac
 
-### Tasarım
+### İletişim
 
-* CS2
+* GTalk
+* Google Mail grubu
+* Xchat Azur
+
+### İş Takibi
+
+* Wunderlist
 
 ### Üretkenlik
 
 * Google Chrome
 * Twitter
-* xChat Azur
 * Marked
 * Keynote
 * iBook
@@ -18,7 +23,10 @@
 * Camtasia for mac
 * Mac Keeper
 * Dropbox
-* Wunderlist
+
+### Tasarım
+
+* CS2
 
 ### Geliştirme 
 
