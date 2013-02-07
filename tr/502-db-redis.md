@@ -4,7 +4,7 @@
 
 ## OSX Kurulum Talimatları
 
-Redis'i OSX ortamına kurmanın en kolay yolu homebrew kullanmaktır. Homebrew OSX için hazırlanmış daha ziyade geliştiricilere yönelik hazırlanmış paketlerin bulunduğu bir repo'dur diyebiliriz.
+Redis'i OSX ortamına kurmanın en kolay yolu [Homebrew](http://mxcl.github.com/homebrew/) kullanmaktır. Homebrew OSX için hazırlanmış daha ziyade geliştiricilere yönelik hazırlanmış paketlerin bulunduğu bir repo'dur diyebiliriz.
 
 Kurulum için aşağıdaki komutu terminalden çalıştırmanız yeterlidir.
 
