@@ -9,7 +9,7 @@ Redis'i OSX ortamına kurmanın en kolay yolu [Homebrew](http://mxcl.github.com/
 Kurulum için aşağıdaki komutu terminalden çalıştırmanız yeterlidir.
 
 ```bash
-$ brew install
+$ brew install redis
 ```
 
 Kurulum işleminiz tamamlandıktan sonra konsola aşağıdaki komutu yazın ve hemen altındakine benzer bir çıktı aldığınızdan emin olun.
