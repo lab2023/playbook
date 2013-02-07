@@ -24,7 +24,7 @@ http://www.sourcetreeapp.com/
 
 Versiyon kontrol, issue tracker için www.github.com kullanıyoruz.
 
-## Balsemiq
+## Balsamiq
 
 Arayüz çizimi için http://www.balsamiq.com/ kullanıyoruz.
 
