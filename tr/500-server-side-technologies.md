@@ -1,6 +1,30 @@
 # Ruby ekosistemi
 
 ## Ruby
+
+* http://www.ruby-lang.org
+* https://www.ruby-toolbox.com
+
+### Kaynaklar
+
+**İnteraktif**
+
+* http://tryruby.org/levels/1/challenges/0
+* http://www.codeschool.com/courses/tag/ruby
+* http://rubymonk.com/learning/books
+
+**Videolar**
+
+* http://www.lynda.com/Ruby-tutorials/essential-training/47905-2.html
+* https://cooperpress.com/19walkthrough
+
+**Kitaplar**
+
+* http://www.amazon.com/Programming-Ruby-1-9-Pragmatic-Programmers/dp/1934356085
+* http://www.amazon.com/Metaprogramming-Ruby-Program-Like-Pros/dp/1934356476/ref=pd_sim_b_9
+* http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330/ref=pd_sim_b_13
+* http://www.amazon.com/Design-Patterns-Ruby-Russ-Olsen/dp/0321490452/ref=pd_sim_b_20
+
 ## Rack
 ## Rake
 ## Bundler Gemfile
