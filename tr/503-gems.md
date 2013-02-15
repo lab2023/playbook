@@ -22,16 +22,78 @@ Bootstrap temalı HTML5 wysing editör.
 
 **Kaynaklar**
 
+#### haml
+Markup language.
 
-* [bootstrap-datepicker-rails](https://github.com/Nerian/bootstrap-datepicker-rails) Bootstrap temalı date picker.
-* [haml-rails](https://github.com/indirect/haml-rails) - Haml - Rails entegrasyonu yapar.
-* [haml](http://haml-lang.com) - Markup language.
-* [breadcrumbs_on_rails](https://github.com/weppos/breadcrumbs_on_rails) Breadcrumb(ekmek kırıntısı) için kullanıyoruz.
-* [client_side_validations](https://github.com/bcardarella/client_side_validations) - Modeldeki validasyonları alıp javascript ile client side' ta yapıyor.
-* [compass-rails](https://github.com/chriseppstein/compass) - Sass mixin kütüphanesi.
-* [simple_form](https://github.com/plataformatec/simple_form) - Form generator.
-* [select2-rails](https://github.com/argerim/select2-rails) - [JQuery Select Box](http://ivaynberg.github.com/select2/) kütüphanesini projeye eklememizi sağlıyor. 
+* http://haml-lang.com
+* ruby-toolbox linki
+* github linki
+* Ruby doc linki
 
+**Kaynaklar**
+
+#### haml-rails
+Haml - Rails entegrasyonu yapar.
+
+* ruby-toolbox linki
+* https://github.com/indirect/haml-rails
+* Ruby doc linki
+
+**Kaynaklar**
+
+#### bootstrap-datepicker-rails
+Bootstrap temalı date picker.
+
+* ruby-toolbox linki
+* https://github.com/Nerian/bootstrap-datepicker-rails
+* Ruby doc linki
+
+**Kaynaklar**
+
+#### breadcrumbs_on_rails
+Breadcrumb(ekmek kırıntısı) için kullanıyoruz.
+
+* ruby-toolbox linki
+* https://github.com/weppos/breadcrumbs_on_rails
+* Ruby doc linki
+
+**Kaynaklar**
+
+#### client_side_validations
+Modeldeki validasyonları alıp javascript ile client side' ta yapıyor.
+
+* ruby-toolbox linki
+* https://github.com/bcardarella/client_side_validations
+* Ruby doc linki
+
+**Kaynaklar**
+
+#### compass-rails
+Sass mixin kütüphanesi.
+
+* ruby-toolbox linki
+* https://github.com/chriseppstein/compass
+* Ruby doc linki
+
+**Kaynaklar**
+
+#### simple_form
+Form generator.
+
+* ruby-toolbox linki
+* https://github.com/plataformatec/simple_form
+* Ruby doc linki
+
+**Kaynaklar**
+
+#### select2-rails
+Gem Açıklama
+
+* ruby-toolbox linki
+* https://github.com/argerim/select2-rails
+* Ruby doc linki
+
+**Kaynaklar**
 
 ## Server Side
 
