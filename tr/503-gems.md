@@ -11,16 +11,12 @@ Twitter Bootstrap' ın Sass versiyonunu Rails' e entegre ediyor.
 * https://github.com/thomas-mcdonald/bootstrap-sass
 * http://rubydoc.info/gems/bootstrap-sass/frames
 
-**Kaynaklar**
-
 #### bootstrap-wysihtml5-rails
 Bootstrap temalı HTML5 wysing editör.
 
 * https://www.ruby-toolbox.com/projects/bootstrap-wysihtml5-rails
 * https://github.com/Nerian/bootstrap-wysihtml5-rails
 * http://rubydoc.info/gems/bootstrap-wysihtml5-rails/frames
-
-**Kaynaklar**
 
 #### haml
 Markup language.
@@ -30,16 +26,12 @@ Markup language.
 * github linki
 * Ruby doc linki
 
-**Kaynaklar**
-
 #### haml-rails
 Haml - Rails entegrasyonu yapar.
 
 * ruby-toolbox linki
 * https://github.com/indirect/haml-rails
 * Ruby doc linki
-
-**Kaynaklar**
 
 #### bootstrap-datepicker-rails
 Bootstrap temalı date picker.
@@ -48,16 +40,12 @@ Bootstrap temalı date picker.
 * https://github.com/Nerian/bootstrap-datepicker-rails
 * Ruby doc linki
 
-**Kaynaklar**
-
 #### breadcrumbs_on_rails
 Breadcrumb(ekmek kırıntısı) için kullanıyoruz.
 
 * ruby-toolbox linki
 * https://github.com/weppos/breadcrumbs_on_rails
 * Ruby doc linki
-
-**Kaynaklar**
 
 #### client_side_validations
 Modeldeki validasyonları alıp javascript ile client side' ta yapıyor.
@@ -66,16 +54,12 @@ Modeldeki validasyonları alıp javascript ile client side' ta yapıyor.
 * https://github.com/bcardarella/client_side_validations
 * Ruby doc linki
 
-**Kaynaklar**
-
 #### compass-rails
 Sass mixin kütüphanesi.
 
 * ruby-toolbox linki
 * https://github.com/chriseppstein/compass
 * Ruby doc linki
-
-**Kaynaklar**
 
 #### simple_form
 Form generator.
@@ -84,16 +68,12 @@ Form generator.
 * https://github.com/plataformatec/simple_form
 * Ruby doc linki
 
-**Kaynaklar**
-
 #### select2-rails
 Gem Açıklama
 
 * ruby-toolbox linki
 * https://github.com/argerim/select2-rails
 * Ruby doc linki
-
-**Kaynaklar**
 
 ## Server Side
 
