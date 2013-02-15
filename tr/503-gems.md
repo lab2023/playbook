@@ -77,21 +77,103 @@ Gem Açıklama
 
 ## Server Side
 
-* [rails_config](https://github.com/railsjedi/rails_config) Projeye config ayarları eklememizi sağlıyor.
-* [to_xls](https://github.com/arydjmal/to_xls) Excel export yapar.
-* [state_machine](https://github.com/pluginaweek/state_machine) Durum yönetimi yapıyor.
-* [savon](https://github.com/savonrb/savon) SOAP client.
-* [ransack](https://github.com/ernie/ransack) Arama ve sıralama.
-* [whenever](https://github.com/javan/whenever) Zamanlanmış görevler.
-* [resque](https://github.com/defunkt/resque) Arkaplan işlerini yönetir.
-* [cancan](https://github.com/ryanb/cancan) - Kullanıcı yetkilendirmesi yapıyor.
-* [friendly_id](https://github.com/norman/friendly_id) - İnsancıl url üretir.
-* [devise](https://github.com/plataformatec/devise) - Kullanıcı authentication.
-* [globalize3](https://github.com/svenfuchs/globalize3) Model katmanına çoklu dil desteği eklemek için kullanıyoruz.
-* [devise_invitable](https://github.com/scambra/devise_invitable) Kullanıcı davet sistemi için kullanıyoruz. İsmindende anlaşılacağı gibi devise gemi ile birlikte çalışıyor.
+#### rails_config
+Projeye config ayarları eklememizi sağlıyor.
 
+* ruby-toolbox linki
+* https://github.com/railsjedi/rails_config
+* Ruby doc linki
+
+#### to_xls
+Excel export yapar.
+
+* ruby-toolbox linki
+* https://github.com/arydjmal/to_xls
+* Ruby doc linki
+
+#### state_machine
+Durum yönetimi yapıyor.
+
+* ruby-toolbox linki
+* https://github.com/pluginaweek/state_machine
+* Ruby doc linki
+
+#### savon
+SOAP client.
+
+* ruby-toolbox linki
+* https://github.com/savonrb/savon
+* Ruby doc linki
+
+#### ransack
+Arama ve sıralama.
+
+* ruby-toolbox linki
+* https://github.com/ernie/ransack
+* Ruby doc linki
+
+#### whenever
+Zamanlanmış görevler.
+
+* ruby-toolbox linki
+* https://github.com/javan/whenever
+* Ruby doc linki
+
+#### resque
+Arkaplan işlerini yönetir.
+
+* ruby-toolbox linki
+* https://github.com/defunkt/resque
+* Ruby doc linki
+
+#### cancan
+Kullanıcı yetkilendirmesi yapıyor.
+
+* ruby-toolbox linki
+* https://github.com/ryanb/cancan
+* Ruby doc linki
+
+#### friendly_id
+İnsancıl url üretir.
+
+* ruby-toolbox linki
+* https://github.com/norman/friendly_id
+* Ruby doc linki
+
+#### devise
+Kullanıcı authentication.
+
+* ruby-toolbox linki
+* https://github.com/plataformatec/devise
+* Ruby doc linki
+
+#### globalize3
+Model katmanına çoklu dil desteği eklemek için kullanıyoruz.
+
+* ruby-toolbox linki
+* https://github.com/svenfuchs/globalize3
+* Ruby doc linki
+
+
+#### devise_invitable
+Kullanıcı davet sistemi için kullanıyoruz. İsmindende anlaşılacağı gibi devise gemi ile birlikte çalışıyor.
+
+* ruby-toolbox linki
+* https://github.com/scambra/devise_invitable
+* Ruby doc link
 
 ## Development Tools
 
-* [better_errors](https://github.com/charliesome/better_errors) - Rails' in standart error sayfasını daha kullanışlı bir sayafa ile değiştiriyor.
-* [sextant](https://github.com/schneems/sextant) Geliştirme sürecinde route' ları veiwde gösteren bir gem. rails 4 ile birlikte varsayılan olarak geliyor.
+#### sextant
+Geliştirme sürecinde route' ları veiwde gösteren bir gem. rails 4 ile birlikte varsayılan olarak geliyor.
+
+* ruby-toolbox linki
+* https://github.com/schneems/sextant
+* Ruby doc linki
+
+#### better_errors
+Rails' in standart error sayfasını daha kullanışlı bir sayafa ile değiştiriyor.
+
+* ruby-toolbox linki
+* https://github.com/charliesome/better_errors
+* Ruby doc linki
