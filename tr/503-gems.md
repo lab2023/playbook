@@ -177,3 +177,11 @@ Rails' in standart error sayfasını daha kullanışlı bir sayafa ile değişti
 * ruby-toolbox linki
 * https://github.com/charliesome/better_errors
 * Ruby doc linki
+* http://railscasts.com/episodes/402-better-errors-railspanel
+
+#### rails_panel & meta_request
+Google chrome ile rails'ın debug edilmesine yarıyor.
+
+* https://github.com/dejan/rails_panel
+* http://railscasts.com/episodes/402-better-errors-railspanel
+* https://www.ruby-toolbox.com/gems/meta_request
