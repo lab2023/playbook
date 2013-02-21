@@ -75,6 +75,13 @@ Form generator.
 * https://github.com/tsechingho/chosen-rails
 * Ruby doc linki
 
+#### cocoon
+Nested formları yönetmemizi sağlıyor.
+
+* ruby-toolbox linki
+* https://github.com/nathanvda/cocoon
+* http://rubydoc.info/gems/cocoon/1.1.2/frames
+
 ## Server Side
 
 #### rails_config
