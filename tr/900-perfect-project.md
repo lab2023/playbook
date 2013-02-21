@@ -1,13 +1,12 @@
-Bir uygulamanın mükemmel olmasınında bazı kuralları vardır.
+Bir uygulamanın müşterinin istediği şekilde tam ve eksiksiz çalışması onu mükemmel yapmaz! Çünkü müşterilerimiz bizim
+kadar ne **pazarlama** ne de **teknik** bilgiye sahip değildir. Bir uygulamanın mükemmel olması için o uygulamanın 
+müşterinin hayallerini gerçekleştirmesine yardımcı olması lazım.
 
-* Kullanım basitliği
-* Performans & Ölçeklenebilmesi
-* Diğer Programlar ile entegrasyon
-* Kullanıcıların davranışlarının loglanması
-* Startuplar için pazarlamaya uygun olması
-* Destek sistemi
+Eğer müşterinin hayali sahibinden.com gibi bir siteye sahip olması ise bizim müşterimize o istemese bile aşağıdaki 
+maddeleri tek tek anlatmamız ve projeye eklememiz gerekmektedir. Aksi halde uygulama müşterinin isteklerini gerçekleştirse
+de hayallerini gerçekleştirmeyeceğinden mükemmel bir uygulama olmayacaktır.
 
-# Performans ve Ölçüklenebilmesi
+# Uygulamanın Performansı ve Ölçeklenmesi
 
 İyi bir yazılım performanslı ve ölçeklenebilir olması gerekir.
 
@@ -24,13 +23,7 @@ Bir uygulamanın mükemmel olmasınında bazı kuralları vardır.
 
 * Uygulama birden fazla web servera dağıtılabilmelidir. Nginx load-blance
 
-# Learderboard - Scoreboard
-
-Uygulama kullanıcıları yönlendirmelidir. 
-
-* https://github.com/agoragames/leaderboard
-
-# Pazarlama Stratejisine Uygunluluk
+# Uygulamanın Pazarlama Stratejisine Uygunluğu
 
 ## AARRR Metrics
 
@@ -40,7 +33,7 @@ Uygulama kullanıcıları yönlendirmelidir.
 
 ## Davetiye Sistemi
 
-# API ve Response Tipleri
+# Uygulamanın Diğer Uygulamalar ile Entegrasyonu
 
 ## API
 
