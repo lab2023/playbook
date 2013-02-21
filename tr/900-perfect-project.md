@@ -44,7 +44,7 @@ Her uygulamanın API'ye ihtiyacı yoktur ancak API'si olan uygulamalar ticari a�
 Bir uygulama yapması gereken işleri yapmalıdır. Uygulama için destek, geri bildirim gibi ihtiyaçlar 3. parti servisler 
 tarafından karşılanmalıdır.
 
-Bizler destek için desk.com u öneriyoruz. Basitçe özellikleri
+Bizler destek için http://www.desk.com u öneriyoruz. Basitçe özellikleri
 
 * Bilgi Havuzu
 * Twitter, facebook, email ile gelen soruların bir yerde toplanması
