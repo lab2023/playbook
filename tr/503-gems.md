@@ -22,14 +22,14 @@ Bootstrap temalı HTML5 wysing editör.
 Markup language.
 
 * http://haml-lang.com
-* ruby-toolbox linki
-* github linki
+* https://www.ruby-toolbox.com/projects/haml
+* https://github.com/haml/haml
 * Ruby doc linki
 
 #### haml-rails
 Haml - Rails entegrasyonu yapar.
 
-* ruby-toolbox linki
+* https://www.ruby-toolbox.com/projects/haml-rails
 * https://github.com/indirect/haml-rails
 * Ruby doc linki
 
@@ -68,11 +68,11 @@ Form generator.
 * https://github.com/plataformatec/simple_form
 * Ruby doc linki
 
-#### select2-rails
-Gem Açıklama
+#### chosen-rails
+[chosen](https://github.com/harvesthq/chosen) javascript kütüphanesini projeye entegre etmemizi sağlıyor. Chosen uzun ve hantal select box' ları güzelleştiriyor.
 
 * ruby-toolbox linki
-* https://github.com/argerim/select2-rails
+* https://github.com/tsechingho/chosen-rails
 * Ruby doc linki
 
 ## Server Side
@@ -162,6 +162,17 @@ Kullanıcı davet sistemi için kullanıyoruz. İsmindende anlaşılacağı gibi
 * https://github.com/scambra/devise_invitable
 * Ruby doc link
 
+#### wice_grid
+Twitter bootstrap tema uyumlu grid generator. Filtreleme, excel export, sayfalama mevcut.
+* 
+* https://github.com/leikind/wice_grid
+* http://rubydoc.info/gems/wice_grid/3.2.1/frames
+
+#### enumerize
+ActiveRecord ve i18n destekli enum türünde veri oluşturmamızı sağlıyor. Örneğin `homes` tablosundaki `home_type` alanı için model katmanında enumları belirleyerek kullanabiliriz. Simple Form desteği mevcut.
+* ruby-toolbox linki
+* https://github.com/brainspec/enumerize
+* http://rubydoc.info/gems/enumerize/0.5.1/frames
 ## Development Tools
 
 #### sextant
