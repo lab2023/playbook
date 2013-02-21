@@ -1,6 +1,15 @@
-# Performans
+Bir uygulamanın mükemmel olmasınında bazı kuralları vardır.
 
-İyi bir yazılım performslı olur.
+* Kullanım basitliği
+* Performans & Ölçeklenebilmesi
+* Diğer Programlar ile entegrasyon
+* Kullanıcıların davranışlarının loglanması
+* Startuplar için pazarlamaya uygun olması
+* Destek sistemi
+
+# Performans ve Ölçüklenebilmesi
+
+İyi bir yazılım performanslı ve ölçeklenebilir olması gerekir.
 
 ## Veritabanı
 
@@ -21,21 +30,25 @@ Uygulama kullanıcıları yönlendirmelidir.
 
 * https://github.com/agoragames/leaderboard
 
-# API
+# Pazarlama Stratejisine Uygunluluk
+
+## AARRR Metrics
+
+* https://github.com/paulasmuth/fnordmetric
+
+## Satış Ortaklığı
+
+## Davetiye Sistemi
+
+# API ve Response Tipleri
+
+## API
 
 Her uygulamanın API'ye ihtiyacı yoktur ancak API'si olan uygulamalar ticari açıdan daha başarılıdırlar.
 
 * https://github.com/applicake/doorkeeper
 
-# AARRR Metrics
-
-* https://github.com/paulasmuth/fnordmetric
-
-# Satış Ortaklığı
-
-# Davetiye Sistemi
-
-# JSON Response type
+## JSON Response type
 
 * Web uygulamalarına sadece kullanıcılar değil, mobil ve diğer web uygulamalarıda erişir. Eğer bir veri public ise bunun rahat bir şekilde kullanılabilmesi için JSON formatında da döndürülmesi gerekmektedir.
 
