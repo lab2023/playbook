@@ -164,7 +164,7 @@ Kullanıcı davet sistemi için kullanıyoruz. İsmindende anlaşılacağı gibi
 
 #### wice_grid
 Twitter bootstrap tema uyumlu grid generator. Filtreleme, excel export, sayfalama mevcut.
-* 
+* ruby-toolbox linki
 * https://github.com/leikind/wice_grid
 * http://rubydoc.info/gems/wice_grid/3.2.1/frames
 
