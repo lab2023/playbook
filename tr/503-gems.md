@@ -197,3 +197,8 @@ Google chrome ile rails'ın debug edilmesine yarıyor.
 * https://github.com/dejan/rails_panel
 * http://railscasts.com/episodes/402-better-errors-railspanel
 * https://www.ruby-toolbox.com/gems/meta_request
+
+#### bullet
+Uygulamadaki N+1 problemlerini tespit ediyor. 
+
+* https://github.com/flyerhzm/bullet
