@@ -25,6 +25,8 @@ Markup language.
 * https://www.ruby-toolbox.com/projects/haml
 * https://github.com/haml/haml
 * Ruby doc linki
+* http://screencasts.org/episodes/introduction-to-haml
+* http://www.youtube.com/watch?v=ILt6q_o2hts
 
 #### haml-rails
 Haml - Rails entegrasyonu yapar.
@@ -32,6 +34,7 @@ Haml - Rails entegrasyonu yapar.
 * https://www.ruby-toolbox.com/projects/haml-rails
 * https://github.com/indirect/haml-rails
 * Ruby doc linki
+* http://screencasts.org/episodes/using-haml-with-rails-3
 
 #### bootstrap-datepicker-rails
 Bootstrap temalı date picker.
@@ -53,6 +56,7 @@ Modeldeki validasyonları alıp javascript ile client side' ta yapıyor.
 * ruby-toolbox linki
 * https://github.com/bcardarella/client_side_validations
 * Ruby doc linki
+* http://railscasts.com/episodes/263-client-side-validations
 
 #### compass-rails
 Sass mixin kütüphanesi.
@@ -60,6 +64,7 @@ Sass mixin kütüphanesi.
 * ruby-toolbox linki
 * https://github.com/chriseppstein/compass
 * Ruby doc linki
+* http://railscasts.com/episodes/334-compass-css-sprites
 
 #### simple_form
 Form generator.
@@ -67,6 +72,7 @@ Form generator.
 * ruby-toolbox linki
 * https://github.com/plataformatec/simple_form
 * Ruby doc linki
+* http://railscasts.com/episodes/234-simple-form
 
 #### chosen-rails
 [chosen](https://github.com/harvesthq/chosen) javascript kütüphanesini projeye entegre etmemizi sağlıyor. Chosen uzun ve hantal select box' ları güzelleştiriyor.
@@ -104,6 +110,7 @@ Durum yönetimi yapıyor.
 * ruby-toolbox linki
 * https://github.com/pluginaweek/state_machine
 * Ruby doc linki
+* http://railscasts.com/episodes/392-a-tour-of-state-machines
 
 #### savon
 SOAP client.
@@ -111,6 +118,7 @@ SOAP client.
 * ruby-toolbox linki
 * https://github.com/savonrb/savon
 * Ruby doc linki
+* http://railscasts.com/episodes/290-soap-with-savon
 
 #### ransack
 Arama ve sıralama.
@@ -118,6 +126,7 @@ Arama ve sıralama.
 * ruby-toolbox linki
 * https://github.com/ernie/ransack
 * Ruby doc linki
+* http://railscasts.com/episodes/370-ransack
 
 #### whenever
 Zamanlanmış görevler.
@@ -125,6 +134,7 @@ Zamanlanmış görevler.
 * ruby-toolbox linki
 * https://github.com/javan/whenever
 * Ruby doc linki
+* http://railscasts.com/episodes/164-cron-in-ruby-revised
 
 #### resque
 Arkaplan işlerini yönetir.
@@ -132,6 +142,7 @@ Arkaplan işlerini yönetir.
 * ruby-toolbox linki
 * https://github.com/defunkt/resque
 * Ruby doc linki
+* http://railscasts.com/episodes/271-resque
 
 #### cancan
 Kullanıcı yetkilendirmesi yapıyor.
@@ -139,6 +150,7 @@ Kullanıcı yetkilendirmesi yapıyor.
 * ruby-toolbox linki
 * https://github.com/ryanb/cancan
 * Ruby doc linki
+* http://railscasts.com/episodes/192-authorization-with-cancan
 
 #### friendly_id
 İnsancıl url üretir.
@@ -146,6 +158,7 @@ Kullanıcı yetkilendirmesi yapıyor.
 * ruby-toolbox linki
 * https://github.com/norman/friendly_id
 * Ruby doc linki
+* http://railscasts.com/episodes/314-pretty-urls-with-friendlyid
 
 #### devise
 Kullanıcı authentication.
@@ -153,6 +166,13 @@ Kullanıcı authentication.
 * ruby-toolbox linki
 * https://github.com/plataformatec/devise
 * Ruby doc linki
+* http://railscasts.com/episodes/235-devise-and-omniauth-revised
+* http://railscasts.com/episodes/209-devise-revised
+* http://railscasts.com/episodes/209-introducing-devise
+* http://railscasts.com/episodes/210-customizing-devise
+* http://railscasts.com/episodes/233-engage-with-devise
+* http://railscasts.com/episodes/235-omniauth-part-1
+* http://railscasts.com/episodes/236-omniauth-part-2
 
 #### globalize3
 Model katmanına çoklu dil desteği eklemek için kullanıyoruz.
@@ -160,6 +180,7 @@ Model katmanına çoklu dil desteği eklemek için kullanıyoruz.
 * ruby-toolbox linki
 * https://github.com/svenfuchs/globalize3
 * Ruby doc linki
+* http://railscasts.com/episodes/338-globalize3
 
 
 #### devise_invitable
@@ -202,10 +223,11 @@ Rails' in standart error sayfasını daha kullanışlı bir sayafa ile değişti
 Google chrome ile rails'ın debug edilmesine yarıyor.
 
 * https://github.com/dejan/rails_panel
-* http://railscasts.com/episodes/402-better-errors-railspanel
 * https://www.ruby-toolbox.com/gems/meta_request
+* http://railscasts.com/episodes/402-better-errors-railspanel
 
 #### bullet
 Uygulamadaki N+1 problemlerini tespit ediyor. 
 
 * https://github.com/flyerhzm/bullet
+* http://railscasts.com/episodes/372-bullet
