@@ -173,6 +173,7 @@ ActiveRecord ve i18n destekli enum türünde veri oluşturmamızı sağlıyor. �
 * ruby-toolbox linki
 * https://github.com/brainspec/enumerize
 * http://rubydoc.info/gems/enumerize/0.5.1/frames
+
 ## Development Tools
 
 #### sextant
