@@ -25,13 +25,49 @@ de hayallerini gerçekleştirmeyeceğinden mükemmel bir uygulama olmayacaktır.
 
 # Uygulamanın Pazarlama Stratejisine Uygunluğu
 
+Bütün uygulamalarda pazarlama unsuru olacak diye bir kaide yok ancak startupların bir çoğunda pazarlama 
+hatta internet üzerinden pazarlama vardır. Bir çok müşteri fikrine çok inanır ancak fikirler istedikleri 
+kadar özgün olursa olsun pazarlama olmadan olmaz! Bizler müşterilerimize pazarlama konusunda da yardımcı
+olmak zorundayız.
+
+* Yapılan uygulamada bir pazarlama unsuru olacak mı? 
+* Eğer olacaksa internet üzerinden tanıtım ve satış yapılacak mı?
+* Müşterinin daha önce kullandığı bir CRM var mı?
+
 ## AARRR Metrics
 
+AARRR, internet startupları için neredeyse standartlaşmış bir pazarlama ölçüm standartıdır. AARRR, 5 aşamadan oluşur.
+Bu aşamaların belirlenmesi projede nerenin eksik, hatalı olduğunun tespitini sağlar.
+
+Detayları aşağıdaki kaynaklardan görebilirsiniz.
+
+**Videolar**
+
+[Dave McClure - Startup Metrics for Pirates: AARRR!](http://www.youtube.com/watch?v=irjgfW0BIrw)
+[Dave McClure - Startup Metrics for Pirates Farklı bir sunum](http://www.ustream.tv/recorded/5336115)
+[Matt Kaplan & Alex Kieft](http://www.knowledgevision.com/aarrr_metrics)
+
+**Sunumlar**
+
+* http://www.slideshare.net/dmc500hats/startup-metrics-4-pirates-20-march-2011-sxsw
+* http://www.slideshare.net/dmc500hats/startup-metrics-for-pirates-long-version
+
+**Blog Yazıları**
+
+* http://blog.acerpro.com.tr/2012/05/dijital-pazarlamada-basarinin-formulu-aarrr/
+* http://colearningbe.wordpress.com/2012/10/02/startup-retreat-custdev/
+
+Bizler AARRR için aşağıdaki geliştirme araçlarını öneriyoruz.
+
 * https://github.com/paulasmuth/fnordmetric
+* http://www.mixpanel.com/
+* http://www.google.com/analytics/
 
 ## Satış Ortaklığı
 
 ## Davetiye Sistemi
+
+## Widgets
 
 # Uygulamanın Diğer Uygulamalar ile Entegrasyonu
 
