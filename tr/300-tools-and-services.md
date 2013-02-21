@@ -6,10 +6,6 @@
 
 http://www.jetbrains.com/ruby/
 
-### Sublimetext
-
-http://www.sublimetext.com/
-
 ## Diğer
 	
 ### Source Tree
