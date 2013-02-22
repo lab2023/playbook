@@ -231,3 +231,20 @@ Uygulamadaki N+1 problemlerini tespit ediyor.
 
 * https://github.com/flyerhzm/bullet
 * http://railscasts.com/episodes/372-bullet
+
+## i18n Data
+
+#### rails-i18n
+Rails için bir çok dilde tarih, saat, pluralization vb i18n dosyalarını barındırır.
+
+* https://github.com/svenfuchs/rails-i18n/
+
+#### devise-i18n
+Devise geminin bir çok dilde i18n dasyalarını barındırır.
+
+* https://github.com/tigrish/devise-i18n
+
+#### i18n_generators
+Modellerin locale dosyalarını oluşturur ve eski dosyalar ile senkronize eder.
+
+* http://github.com/amatsuda/i18n_generators
