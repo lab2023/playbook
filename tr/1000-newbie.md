@@ -10,6 +10,11 @@
 * Interaktif bir sekilde git ve github ogretiyor.
 * http://try.github.com
 
+## *nix kurulumu
+
+Ruby dilini Windows uzerinde gelistirmek zordur. Mac, Linux gibi *nix temelli bir isletim sistemine 
+ihtiyaciniz vardir. Bizim onerimiz Ubuntu'nun son surumunu ingilizce olarak kurmanizdir.
+
 ## Lynda Ruby Essential Training
 
 * 7 saatlik guzel bir Ruby 1.9 versyiyonunu anlatiyor. Sifirdan ogrenenler icin gayet faydali.
