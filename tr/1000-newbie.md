@@ -1,12 +1,14 @@
 # Ciraklar icin kaynaklar
 
-## http://tryruby.org
+## Try Ruby
 
 Interaktif bir sekilde ruby ogretiyor.
+http://tryruby.org
 
-## http://try.github.com
+## Try Github
 
 Interaktif bir sekilde git ve github ogretiyor.
+http://try.github.com
 
 ## Lynda Ruby Essential Training
 
