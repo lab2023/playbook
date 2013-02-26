@@ -232,6 +232,12 @@ Uygulamadaki N+1 problemlerini tespit ediyor.
 * https://github.com/flyerhzm/bullet
 * http://railscasts.com/episodes/372-bullet
 
+#### annotate
+Modellerin baslarina gerekli aciklamalari koyuyor.
+
+* https://github.com/ctran/annotate_models
+* http://rubydoc.info/gems/annotate/2.5.0/frames
+
 ## i18n Data
 
 #### rails-i18n
@@ -248,9 +254,3 @@ Devise geminin bir çok dilde i18n dasyalarını barındırır.
 Modellerin locale dosyalarını oluşturur ve eski dosyalar ile senkronize eder.
 
 * http://github.com/amatsuda/i18n_generators
-
-#### annotate
-Modellerin baslarina gerekli aciklamalari koyuyor.
-
-* https://github.com/ctran/annotate_models
-* http://rubydoc.info/gems/annotate/2.5.0/frames
