@@ -82,7 +82,7 @@ Form generator.
 * Ruby doc linki
 
 #### cocoon
-Nested formları yönetmemizi sağlıyor.
+Nested formları yönetmemizi sağlıyor. Form generator için gem kullanıyorsanız Gemfile' da hemen o gemin altına ekleyiniz. Böyle olmadığı zaman production' da çalışmıyor. Alternatif olarak  https://github.com/ryanb/nested_form kullanılabilir. Fafkat client side validasyonlarda sıkıntı çıkarıyor.
 
 * ruby-toolbox linki
 * https://github.com/nathanvda/cocoon
@@ -235,6 +235,12 @@ Uygulamadaki N+1 problemlerini tespit ediyor.
 
 * https://github.com/flyerhzm/bullet
 * http://railscasts.com/episodes/372-bullet
+
+#### annotate
+Modellerin baslarina gerekli aciklamalari koyuyor.
+
+* https://github.com/ctran/annotate_models
+* http://rubydoc.info/gems/annotate/2.5.0/frames
 
 ## i18n Data
 
