@@ -219,6 +219,10 @@ Rails' in standart error sayfasını daha kullanışlı bir sayafa ile değişti
 * Ruby doc linki
 * http://railscasts.com/episodes/402-better-errors-railspanel
 
+#### binding_of_caller
+Better errors için hata veren instancelerin inpectionlarının görünmesini sağlar.
+Better Errors' advanced features(REPL, local/instance variable inspection, pretty stack frame names)
+
 #### rails_panel & meta_request
 Google chrome ile rails'ın debug edilmesine yarıyor.
 
