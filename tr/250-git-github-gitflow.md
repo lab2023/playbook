@@ -17,6 +17,8 @@ Aşağıdaki dökümanlarda git-flow'un basit kullanımı anlatılmıştır. Dah
 
 ### Kurulum
 
+Kurulum esnasında git-flow dal (branch), yayım (release), etiket (tag) ön ekleri ile ilgili size sorular sorar. Bunların hepsini boş bırakırak enter tuşuna başıyoruz.
+
 **OSX**
 
 `brew install git-flow`
