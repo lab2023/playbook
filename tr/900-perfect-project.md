@@ -36,9 +36,7 @@ olmak zorundayız.
 
 ## AARRR 
 
-AARRR, [Dave McClure](https://twitter.com/davemcclure) tarafından internet projelerinin başarılarının ölçülmesini sağlayan beş aşamadan oluşan bir yöntemdir. 
-
-Bizler yazılımlarmızı [AARRR](https://github.com/lab2023/playbook/blob/master/tr/901-AARRR.md) süreçlerini destekleyecek şekilde yazmaya özen gösteriyoruz.
+AARRR, [Dave McClure](https://twitter.com/davemcclure) tarafından internet projelerinin başarılarının ölçülmesini sağlayan beş aşamadan oluşan bir yöntemdir. Bizler yazılımlarmızı [AARRR](https://github.com/lab2023/playbook/blob/master/tr/901-AARRR.md) süreçlerini destekleyecek şekilde yazmaya özen gösteriyoruz.
 
 ## Satış Ortaklığı
 
