@@ -7,6 +7,23 @@ Proje yönetimi için çevik süreçler kullanılır.
 * [Kanban](http://kanban.lab2023.com) için huboard programını kullanıyoruz.
 * Sürüm kontrolü için [semver](http://semver.org/) kullanıyoruz.
 
+## Semantik Versiyonlama
+
+lab2023 olarak www.semver.org adresinde ki standartlara göre versiyonlama yapıyoruz. Bu reponun Türkçesini https://github.com/lab2023/semver/blob/tr_translation/locales/semver.tr.md adresinde bulabilirsiniz.
+
+**Kurallar**
+
+* X.Y.Z şeklinde ifade edilecen bir versiyonlama da X -> Major, Y -> Minor, Z -> Patchi ifade eder.
+* Z -> Uygulamaya yapılan hotfix ve typo düzeltmelerinden de yapılır. Yani uygulamaya yeni bir özellik eklemediyseniz, belli bir yerdeki bir hatayı veya yazıyı değiştirdiyseniz Z sayısı değişir.
+* Y -> Uygulamaya eklenen yeni özellikler, iyileştirmeler sonucunda değişir. Y deki değişiklikler eski kullanıcıları eklemez. Y de ki değişiklikler **GERİYE UYUMLU**dur.
+* X -> Uygulamada yapılan büyük değişikliklerdir. Örneğin yapının komple değişmesi, teknolojinin değişmesi gibi gibi. X de yapılan bir değişiklik **GERİYE UYUMLULUĞU** desteklemez.
+* Bir uygulama 0.1.0 versiyonu ile başlar. 
+* Bir uygulama product olunca 1.0.0 olmalıdır. 
+* Eğer X = 0 ise o uygulama stable değildir. Yani her an her şeyi değişebilir. Hala develop aşamasındadır.
+* Her uygulmanın versiyonunu gösteren bir API si olmalıdır. Yani kullancılar, diğer developerlar mutlaka hangi sürümü kullandıklarını bilmelidir! **Bu programcının birinci ve en önemli görevidir.**
+* Versiyonlamada [0-9A-Za-z-] ifadelerini kullanabilirsiniz.
+* 1.0.0-alpha.1 gibi prepatchleri kullanmanızı biz lab2023 olarak önermiyoruz. Hayat zaten yeterince karışık!
+
 # Üretkenlik
 
 Bu bölümde geliştiricilerin üretkenliğini artırmaya yönelik kurallar vardır.
