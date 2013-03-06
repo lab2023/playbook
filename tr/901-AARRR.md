@@ -29,7 +29,7 @@ Girişimci aşamaların birbirine dönüşüm oranlarını görebilmek için AAR
 
 Örneğin;
 
-Son bir aydaki siteye yapılan toplan ziyaret / Son bir ayda ki üye olma sayısı 
+Son bir aydaki siteye yapılan toplan ziyaret / Son bir aydaki üye olma sayısı 
 
 Diğer önemli olan konu ise sizin müşterilerinize sunduğunuz hizmetin ne olduğudur. Düşünülenin aksine müşterilere yeni özellikler sunmak genellikle müşteri kaçışlarına neden olur. Girişimci zamanının %80'ini mevcut özelliklerin mükemmel olmasına ayırmalı, %20 zamanını yeni özellikler eklemeye ayırmalıdır. Unutmayın ne kadar az o kadar iyidir. Her hafta müşterilerinizi zorlayan, kullanılmayan, kullanımı zor olan bir özelliği programdan çıkartın veya düzeltin.
 
@@ -37,90 +37,92 @@ Diğer önemli olan konu ise sizin müşterilerinize sunduğunuz hizmetin ne old
 
 ### Toplama (Acquisition)
 
-Kullanıcılar siteye bir çok kanalden ulaşırlar. Girişimcinin görevi bu kanalları tespit etmek, doğru kanallara yatırım yapmak, aksayan kanallarda ki problemleri gidermektedir.
+Kullanıcılar siteye bir çok kanaldan ulaşırlar. Girişimcinin görevi bu kanalları tespit etmek, doğru kanallara yatırım yapmak, aksayan kanallardaki problemleri gidermektedir.
 
 Kanallar
 
-* Arama motorları
-* Adwords
-* Davetiye sistemi
-* Haber Grubu & Email marketing
-* Viral
-* Blog yazıları
-* Sosyal medya paylaşımları
-* Uygulamalar & Widgets
-* Halkla İlişkiler
-* Kuponlar
-* Kampanyalar
-* Yarışmalar
-* Satış ortaklığı
-* Doğrudan pazarlama
-* Radyo / TV / Print
+* Arama motorları,
+* Adwords,
+* Davetiye sistemi,
+* Haber Grubu & Email marketing,
+* Viral,
+* Blog yazıları,
+* Sosyal medya paylaşımları,
+* Uygulamalar & Widgets,
+* Halkla İlişkiler,
+* Kuponlar,
+* Kampanyalar,
+* Yarışmalar,
+* Satış ortaklığı,
+* Doğrudan pazarlama,
+* Radyo / TV / Print.
 
 Kanalları doğru seçmeliyiz. Seçim işinde;
 
-* En geniş topluluğa ulaşabileceğimiz
-* En düşük maliyetli
+* En geniş topluluğa ulaşabileceğimiz,
+* En düşük maliyetli,
 * En iyi performansı alacağımız
 
-NOT: Amaç çok kişiye ulaşmak değil müşteri kitlemize ulaşmaktır. Bu bağlamda 100.000 üyesi olan genel bir forma reklam vermek yerine 1000 üyesi olan müşterilerimizin olduğu bir foruma reklam vermek daha iyidir.
+şekilde seçim yapmamız gerekir.
+
+NOT: Amaç çok kişiye ulaşmak değil müşteri kitlemize ulaşmaktır. Bu bağlamda 100.000 üyesi olan genel bir foruma reklam vermek yerine 1000 üyesi olan müşterilerimizin olduğu bir foruma reklam vermek daha iyidir.
 
 Yukarıda ki kanallardan arama motorları, davetiye sistemi, haber grubu, viral, blog, sosyal medya paylaşımları, widgetler ücretsiz olanlardır. Eğer müşteri segmentinize bunlar ile ulaşabiliyorsanız şanslısınız.
 
 ### Aktivasyon (Activition)
 
-Toplama sonucunda kullanıcılar siteye gelir. Bu andan itibaren aktivasyon süreci başlar. Aktivasyon için bir kriter belirlemeniz gerekmektedir. lab2023 olarak biz kullanıcıya ulaşabileceğimiz bir yolun açılması olarak görüyoruz.
+Toplama sonucunda kullanıcılar siteye gelir. Bu andan itibaren aktivasyon süreci başlar. Aktivasyon için bir kriter belirlemeniz gerekmektedir. lab2023 olarak biz atkivasyonu kullanıcıya ulaşabileceğimiz bir yolun açılması olarak görüyoruz.
 
 * En güzeli siteye üye olması
 * RSS Kaydı
 * Facebook like
 * Haber grubu üyeliği
 
-Aktivasyon sayfasının en önemli konusu kullanıcıyı siteden kaçırtmadan, en kısa yoldan siteye üye yapacak çözümler bulmaktır.
+Aktivasyon sayfasının en önemli konusu kullanıcıyı siteden kaçırmadan, en kısa yoldan siteye üye yapacak çözümler bulmaktır.
 
-* Sade bir site tasarımı
-* Üyelik ekranında email ve şifre dışında bir şey istememek
-* Facebook ile üyelik
-* Kullanıcıya çok seçenek sunmamak ne istiyorsa onu göstermek
-* A/B Testi eğer ziyaretçi sayınız 1000'in üzerinde değilse yapmayın.
+* Sade bir site tasarımı,
+* Üyelik ekranında e-posta ve parola dışında bir şey istememek,
+* Facebook sistemi üzerinden üyelik,
+* Kullanıcıya çok seçenek sunmamak, ne istiyorsa onu göstermek,
+* A/B Testi. (Eğer ziyaretçi sayınız 1000'in üzerinde değilse yapmayın.)
 
 ### Tutma (Retention)
 
-Kullanıcıların sitenizi birden fazla gelmesini sağlayacak özellikleri sitenizde bulundurmalısınız. Aksi takdir bir daha gelmeyeceklerdir.
+Kullanıcıların sitenize birden fazla gelmesini sağlayacak özellikleri sitenizde bulundurmalısınız. Aksi takdirde kullanıcılar bir daha sitenize gelmeyeceklerdir.
 
 Tutmaya yarayan bazı özellikler
 
-* Alarmlar
-* Blog RSSleri
-* Email atmak
-* Haber RSS
-* Sistem olayları
-* Zaman tabanlı işler
-* Leaderboard
+* Alarmlar,
+* Blog RSS'leri,
+* E-posta göndermek,
+* Haber RSS,
+* Sistem olayları,
+* Zaman tabanlı işler,
+* Leaderboard.
 
 ### Sevk (Referral)
 
-Kullanıcılarınız sizi diğer kullanıcılara önermesidir.
+Kullanıcılarınızın sizi diğer kullanıcılara önermesidir.
 
-* Viral döngüler
-* Widgetler
-* Satış ortaklığı
-* Kampanyalar
-* Davetiye sistemi
-* Email atmak
+* Viral döngüler,
+* Widgetler,
+* Satış ortaklığı,
+* Kampanyalar,
+* Davetiye sistemi,
+* E-posta göndermek.
 
-NOT: Uygulamanız mükemmel olmadan böyle bir çabaya girmeyiniz. Reklamanın iyisi de **kötüsüde** olur. Eğer ürününüz hazır değilse kullanıcılar gelecek, beğenmeyecek ve bir daha fikirlerini değiştirmek çok mümkün olmayacaktır.
+NOT: Uygulamanız mükemmel olmadan böyle bir çabaya girmeyin. Reklamın iyisi de **kötüsüde** olur. Eğer ürününüz hazır değilse kullanıcılar gelecek, beğenmeyecek ve bir daha fikirlerini değiştirmek çok mümkün olmayacaktır.
 
 ### Gelir (Revenue)
 
-Kullanıcılardan para kazanma yoludur. Daha ziyade iş modeli ile ilgili bir kısımdır ancak bir internet sitesi aşağıdaki yollardan para kazanabilir.
+Kullanıcılardan para kazanma yoludur. Bu daha çok iş modeli ile ilgili bir kısımdır ancak bir internet sitesi aşağıdaki yollardan da para kazanabilir.
 
-* Reklam alarak
-* Kullanıcılarından iş bağlayarak
-* Aylık bir üyelik ile
-* Eticaret yaparak
-* Sponsor alarak
-* Kendi içinde sanal bir para yapıp kullanıcılara bunu satarak. (Şunu yapmak için 3 altına ihtiyacını var)
+* Reklam alarak,
+* Kullanıcılarından iş bağlayarak,
+* Aylık bir üyelik ile,
+* E-ticaret yaparak,
+* Sponsor alarak,
+* Kendi içinde sanal bir para yapıp kullanıcılara bunu satarak. (Şunu yapmak için 3 altına ihtiyacınız var gibi...)
 
 Yapılan uygulamaya ve iş modeline göre girişimci bunlardan birini veya bir kaçını seçebilir.
 
@@ -134,13 +136,13 @@ Sayfanızın internet standartlarına uygun olup olmadığına bakar ve puan ver
 
 **Fiver**
 
-Sosyal medya hesap yönetimi, seo backlink çalışması, email tasarımı, grafik ve içerik tasarımı yapacak insanları burada $5 - $10 dolara bulabilirsiniz.
+Sosyal medya hesap yönetimi, seo backlink çalışması, e-posta tasarımı, grafik ve içerik tasarımı yapacak insanları burada $5 - $10 dolar arasına bulabilirsiniz.
 
 * http://fiverr.com/
 
 **Google Analytcis**
 
-Google'un ücretsiz sunduğu bir servistir. Sayfanıza yapılan ziyaretleri gösterir. Bazı metrikler ölçmek için kullanabilirsiniz.
+Google'ın ücretsiz sunduğu bir servistir. Sayfanıza yapılan ziyaretleri gösterir. Bazı metrikleri ölçmek için kullanabilirsiniz.
 
 * https://www.google.com/analytics 
 
@@ -152,7 +154,7 @@ SEO ile ilgili sitenizde ki yanlışları gösteren google aracıdır.
 
 **Campaign Monitor**
 
-Email marketing yapmak için uygun bir araçtır. 12k maile kadar ücretsiz gönderim vardır.
+E-mail Marketing yapmak için uygun bir araçtır. 12 bin maile kadar ücretsiz gönderimi vardır.
 
 * http://www.campaignmonitor.com/
 
@@ -164,13 +166,13 @@ Google reklamları için doğru kelimeleri bulmanızı sağlayan araçtır.
 
 **SEO için gerekli bazı araçlar**
 
-SEO için gerekli ücretli ücretsiz bir servistir. İstenirse günlüğü $10 den bir SEO uzmanı kiralanır. http://tools.seobook.com/#freew adresinde ücretsiz olanları vardır. 
+SEO için gerekli ücretli ve ücretsiz olan bir servistir. İstenirse günlüğü $10'dan bir SEO uzmanı kiralanır. http://tools.seobook.com/#freew adresinde ücretsiz olanları da vardır. 
 
 * http://tools.seobook.com/ 
 
 **Add This veya Share This**
 
-Sitenize sosyal medyada paylaşım için gerekli kodu üretir.
+Sitenize sosyal medyada paylaşım için gerekli olan kodu üretir.
 
 * http://www.addthis.com/
 * http://sharethis.com/
