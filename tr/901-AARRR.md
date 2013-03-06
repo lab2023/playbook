@@ -4,11 +4,11 @@ AARRR, [Dave McClure](https://twitter.com/davemcclure) tarafından internet proj
 
 Peki nedir bu beş aşama?
 
-* **Toplama** (Acquisition) kullanıcılar değişik kanallardan siteye gelirler
-* **Aktivasyon** (Activation) kullanıcı site ilk geldiğinde mutlu ayrılmalıdır
-* **Tutma** (Retention) kullanıcı siteye birden fazla gelmelidir
-* **Sevk** (Referral) kullanıcı siteyi diğer kullanıcılara önermelidir
-* **Gelir** (Revenue) kullanıcılar isteye para vermeyi hazır olmalıdır
+* **Toplama** (Acquisition) kullanıcılar değişik kanallardan siteye gelirler.
+* **Aktivasyon** (Activation) kullanıcı siteye ilk geldiğinde mutlu ayrılmalıdır.
+* **Tutma** (Retention) kullanıcı siteye birden fazla gelmelidir.
+* **Sevk** (Referral) kullanıcı siteyi diğer kullanıcılara önermelidir.
+* **Gelir** (Revenue) kullanıcılar siteye para vermeyi hazır olmalıdır.
 
 ![AARRR Modeli](images/aarrr-1.jpg)
 
@@ -21,17 +21,17 @@ Peki AARRR bize ne sağlar?
 
 Girişimci, her seferinde bir aşamaya odaklanmalıdır. Aksi takdirde sıkıntı yaşar. 
 
-1. **İyi bir ürün yapmak** Aktivasyon ve tutma
-2. **Ürünün pazarlamasını yapmak** Toplama ve sevk
+1. **İyi bir ürün yapmak** Aktivasyon ve tutma.
+2. **Ürünün pazarlamasını yapmak** Toplama ve sevk.
 3. **Para kazanma** Gelir ve Karlılık ile ilgilidir.
 
-Girişimci aşamaların birbirine dönüşüm oranlarını görebilmek için AARRR metriclerini belirlemelidir. Bu işi yaparken az aslında çoktur mantığını unutmamalıdır. Dönüşüm kriterleri hesaplanabilir olmalıdır.
+Girişimci aşamaların birbirine dönüşüm oranlarını görebilmek için AARRR metriklerini belirlemelidir. Bu işi yaparken az aslında çoktur mantığını unutmamalıdır. Dönüşüm kriterleri hesaplanabilir olmalıdır.
 
-Örneğin
+Örneğin;
 
 Son bir aydaki siteye yapılan toplan ziyaret / Son bir ayda ki üye olma sayısı 
 
-Diğer önemli olan konu ise sizin müşterilerinize sunduğunuz hizmetin ne olduğudur. Düşünelin aksine müşterilere yeni özellikler sunmak genellikle müşteri kaçışlarına neden olur. Girişimci zamanının %80'ini mevcut özelliklerin mükemmel olmasına ayırmalı, %20 zamanını yeni özellikler eklemeye ayırmalıdır. Unutmayın ne kadar az o kadar iyidir. Her hafta müşterilerinizi zorlayan, kullanılmayan, kullanımı zor olan bir özelliği programdan çıkartın veya düzeltin.
+Diğer önemli olan konu ise sizin müşterilerinize sunduğunuz hizmetin ne olduğudur. Düşünülenin aksine müşterilere yeni özellikler sunmak genellikle müşteri kaçışlarına neden olur. Girişimci zamanının %80'ini mevcut özelliklerin mükemmel olmasına ayırmalı, %20 zamanını yeni özellikler eklemeye ayırmalıdır. Unutmayın ne kadar az o kadar iyidir. Her hafta müşterilerinizi zorlayan, kullanılmayan, kullanımı zor olan bir özelliği programdan çıkartın veya düzeltin.
 
 ## Aşamalar
 
@@ -57,7 +57,7 @@ Kanallar
 * Doğrudan pazarlama
 * Radyo / TV / Print
 
-Kanalları doğru seçmeliyiz. Seçim işinde  
+Kanalları doğru seçmeliyiz. Seçim işinde;
 
 * En geniş topluluğa ulaşabileceğimiz
 * En düşük maliyetli
