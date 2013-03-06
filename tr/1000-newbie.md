@@ -12,6 +12,10 @@
 
 * http://try.github.com
 
+## Try JQuery
+
+* http://www.codeschool.com/courses/try-jquery
+
 ## *nix kurulumu
 
 Ruby programlama dilini Windows üzerinde geliştirmeniz zordur. Bunun yerine Linux veya Mac tercih ediniz. Firmada bizler ya Ubunyu ya da Mac kullanıyoruz.
