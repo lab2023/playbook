@@ -50,6 +50,7 @@ Soru sormak, öneride bulunmak veya tartışmak için kullanılır.
 Proje süresince müşterinin aklına gelen ancak anlaşmadığımız gelecekte yapılması planlanan işlerdir. Bunlar yapılmaz ancak fikirler unutulmasın diye future etiketi ile etiketlenir.
 
 NOT: 
+
 1. wontfix, dublicate, invalid gibi etiketler kullanılmaz. 
 2. Eğer yeni iş istek varsa buna etiket yapılmaz. 
 
