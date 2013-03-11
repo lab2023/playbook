@@ -24,6 +24,35 @@ lab2023 olarak www.semver.org adresinde ki standartlara göre versiyonlama yapı
 * Versiyonlamada [0-9A-Za-z-] ifadelerini kullanabilirsiniz.
 * 1.0.0-alpha.1 gibi prepatchleri kullanmanızı biz lab2023 olarak önermiyoruz. Hayat zaten yeterince karışık!
 
+## Github ve Etiketler
+
+lab2023 projelerinde github'da 4 adet etiket açılır.
+
+* Bug 
+* Enhancement
+* Question
+* Future
+
+**Bug**
+
+Hata bildirimleri için kullanılır.
+
+**Enhancement**
+
+Programdaki bir özelliği veya arayüzü iyileştirmek için kullanılır.
+
+**Question**
+
+Soru sormak, öneride bulunmak veya tartışmak için kullanılır.
+
+**Future**
+
+Proje süresince müşterinin aklına gelen ancak anlaşmadığımız gelecekte yapılması planlanan işlerdir. Bunlar yapılmaz ancak fikirler unutulmasın diye future etiketi ile etiketlenir.
+
+NOT: 
+1. wontfix, dublicate, invalid gibi etiketler kullanılmaz. 
+2. Eğer yeni iş istek varsa buna etiket yapılmaz. 
+
 # Üretkenlik
 
 Bu bölümde geliştiricilerin üretkenliğini artırmaya yönelik kurallar vardır.
