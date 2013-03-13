@@ -26,7 +26,8 @@
 
 ### Tasarım
 
-* CS2
+* Pixelmater
+* GIMP
 
 ### Geliştirme 
 
