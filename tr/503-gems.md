@@ -237,7 +237,7 @@ Uygulamadaki N+1 problemlerini tespit ediyor.
 * http://railscasts.com/episodes/372-bullet
 
 #### annotate
-Modellerin baslarina gerekli aciklamalari koyuyor.
+Modellerin başlarına gerekli açıklamalari koyuyor.
 
 * https://github.com/ctran/annotate_models
 * http://rubydoc.info/gems/annotate/2.5.0/frames
