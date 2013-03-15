@@ -82,7 +82,7 @@ Form generator.
 * Ruby doc linki
 
 #### cocoon
-Nested formları yönetmemizi sağlıyor. Form generator için gem kullanıyorsanız Gemfile' da hemen o gemin altına ekleyiniz. Böyle olmadığı zaman production' da çalışmıyor. Alternatif olarak  https://github.com/ryanb/nested_form kullanılabilir. Fafkat client side validasyonlarda sıkıntı çıkarıyor.
+Nested formları yönetmemizi sağlıyor. Form generator için gem kullanıyorsanız Gemfile' da hemen o gemin altına ekleyiniz. Böyle olmadığı zaman production' da çalışmıyor. Alternatif olarak  https://github.com/ryanb/nested_form kullanılabilir. Fakat client side validasyonlarda sıkıntı çıkarıyor.
 
 * ruby-toolbox linki
 * https://github.com/nathanvda/cocoon
