@@ -3,5 +3,6 @@
 # Nginx
 # Unicorn
 # RVM
+# Rbenv
 # Backup
 # Heroku
