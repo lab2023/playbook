@@ -202,6 +202,11 @@ ActiveRecord ve i18n destekli enum türünde veri oluşturmamızı sağlıyor. �
 * https://github.com/brainspec/enumerize
 * http://rubydoc.info/gems/enumerize/0.5.1/frames
 
+#### validates_timeliness
+Tarih validasyonları için kullanıyoruz.
+
+* https://github.com/adzap/validates_timeliness
+
 ## Development Tools
 
 #### sextant
@@ -259,8 +264,3 @@ Modellerin locale dosyalarını oluşturur ve eski dosyalar ile senkronize eder.
 
 * http://github.com/amatsuda/i18n_generators
 * 
-
-#### validates_timeliness
-Tarih validasyonları için kullanıyoruz.
-
-* https://github.com/adzap/validates_timeliness
