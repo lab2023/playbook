@@ -7,7 +7,7 @@ Proje yönetimi için çevik süreçler kullanılır.
 * [Kanban](http://kanban.lab2023.com) için huboard programını kullanıyoruz.
 * Sürüm kontrolü için [semver](http://semver.org/) kullanıyoruz.
 
-## Semantik Versiyonlama
+# Semantik Versiyonlama
 
 lab2023 olarak www.semver.org adresinde ki standartlara göre versiyonlama yapıyoruz. Bu reponun Türkçesini https://github.com/lab2023/semver/blob/tr_translation/locales/semver.tr.md adresinde bulabilirsiniz.
 
