@@ -15,11 +15,11 @@ Peki nedir bu beş aşama?
 Peki AARRR bize ne sağlar?
 
 * Ekipte ki herkesin aynı dili konuşmasını sağlar.
-* Ürünün gidaşınta bir hata varsa hatanın tespiti daha kolay olacaktır. 
+* Ürünün gidaşınta bir hata varsa hatanın tespiti daha kolay olacaktır.
 * AARRR girişimciya yatırımcılara somut veriler sunmasını sağlar.
 * AARRR size başarılı olup olmadığınızı söyler.
 
-Girişimci, her seferinde bir aşamaya odaklanmalıdır. Aksi takdirde sıkıntı yaşar. 
+Girişimci, her seferinde bir aşamaya odaklanmalıdır. Aksi takdirde sıkıntı yaşar.
 
 1. **İyi bir ürün yapmak** Aktivasyon ve tutma.
 2. **Ürünün pazarlamasını yapmak** Toplama ve sevk.
@@ -29,7 +29,7 @@ Girişimci aşamaların birbirine dönüşüm oranlarını görebilmek için AAR
 
 Örneğin;
 
-Son bir aydaki siteye yapılan toplan ziyaret / Son bir aydaki üye olma sayısı 
+Son bir aydaki siteye yapılan toplan ziyaret / Son bir aydaki üye olma sayısı
 
 Diğer önemli olan konu ise sizin müşterilerinize sunduğunuz hizmetin ne olduğudur. Düşünülenin aksine müşterilere yeni özellikler sunmak genellikle müşteri kaçışlarına neden olur. Girişimci zamanının %80'ini mevcut özelliklerin mükemmel olmasına ayırmalı, %20 zamanını yeni özellikler eklemeye ayırmalıdır. Unutmayın ne kadar az o kadar iyidir. Her hafta müşterilerinizi zorlayan, kullanılmayan, kullanımı zor olan bir özelliği programdan çıkartın veya düzeltin.
 
@@ -144,13 +144,13 @@ Sosyal medya hesap yönetimi, seo backlink çalışması, e-posta tasarımı, gr
 
 Google'ın ücretsiz sunduğu bir servistir. Sayfanıza yapılan ziyaretleri gösterir. Bazı metrikleri ölçmek için kullanabilirsiniz.
 
-* https://www.google.com/analytics 
+* https://www.google.com/analytics
 
 **Google Webmaster Tools**
 
 SEO ile ilgili sitenizde ki yanlışları gösteren google aracıdır.
 
-* https://www.google.com/webmasters/tools 
+* https://www.google.com/webmasters/tools
 
 **Campaign Monitor**
 
@@ -166,9 +166,9 @@ Google reklamları için doğru kelimeleri bulmanızı sağlayan araçtır.
 
 **SEO için gerekli bazı araçlar**
 
-SEO için gerekli ücretli ve ücretsiz olan bir servistir. İstenirse günlüğü $10'dan bir SEO uzmanı kiralanır. http://tools.seobook.com/#freew adresinde ücretsiz olanları da vardır. 
+SEO için gerekli ücretli ve ücretsiz olan bir servistir. İstenirse günlüğü $10'dan bir SEO uzmanı kiralanır. http://tools.seobook.com/#freew adresinde ücretsiz olanları da vardır.
 
-* http://tools.seobook.com/ 
+* http://tools.seobook.com/
 
 **Add This veya Share This**
 

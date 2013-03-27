@@ -1,4 +1,3 @@
-playbook
-========
+# Playbook
 
-Playbook for Developers
+lab2023 - internet teknolojileri standartlarının belirlendiği kitaptır.
