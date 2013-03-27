@@ -1,0 +1,3 @@
+# CoffeeScript
+
+* http://coffeescript.org/

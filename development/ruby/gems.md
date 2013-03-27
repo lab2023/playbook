@@ -263,4 +263,3 @@ Devise geminin bir çok dilde i18n dasyalarını barındırır.
 Modellerin locale dosyalarını oluşturur ve eski dosyalar ile senkronize eder.
 
 * http://github.com/amatsuda/i18n_generators
-* 
