@@ -1,9 +1,9 @@
-Firma olarak bizler homeoffice kavramını destekliyoruz. Yazılımcılarımız aşağıdaki konularda özgürdür.
+# Uzaktan Çalışma
 
-* Haftanın istedikleri günde, saatlerinde mesai yapabilirler.
-* İsterlerse evden, bir kafede çalışabilirler, ofise istedikleri zaman gelebilir veya gelmeyebilirler.
+* lab2023 personeli uzaktan çalışabilir.
+* lab2023 personeli haftanın istediği günü, istediği saatlerde mesai yapabilir.
 
-Peki bu işin kuralları nedir?
+Uzaktan çalışma esnasında dikkat edilecek kurallar.
 
-* Yazılımcılar haftalık olarak ne zamanlar çalışacaklarını takım arkadaşlarına bildirmek zorundadırlar. Bunun için bir google takvimi kuıllanabilirler.
-* Yazılımcılar çalışma süresi boyunca online kalmak zorundadır. Böylece iletişim problemleri minimuma inecektir.
+* Haftanın hangi günü ve hangi saatleri çalışacakları belli olmalıdırlar.
+* Çalışma esnasında mutlaka online olmalılardır.
