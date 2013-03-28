@@ -33,7 +33,3 @@ Projelerin ödeme planı projenin süresine göre değişmektedir. Ödemeler ayl
 Penaltı eğer projeyi teslim süresine uymazsak firma olarak ödeyeceğimiz günlük ceza bedelidir. Bu bedel projenin toplam bedelinin, iş gününün üç katına bölünmesiyle bulunur.
 
 Örneğin 10.000 TL lik ve 20 iş günü sürecek bir projenin günlük penaltı bedeli 10000 / (20 * 3) = 166.6 TL dir.
-
-## Örnek Uygulama Özellikler
-
-## Örnek Teknik Özellikler
