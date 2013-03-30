@@ -1,20 +1,22 @@
 # Roller ve Tanımları
 
+lab2023 de alt üst ilişkisi yoktur. Sadece roller ve sorumluluklar vardır.
+
 **CEO**
 
-Geliştirme süreçleri hariç her şeyden sorumlu olan yöneticidir.
+* Geliştirme süreçleri hariç her şeyden sorumlu olan yöneticidir.
 
 **CTO**
 
-Geliştirme ile ilgili son kararı veren yöneticidir.
+* Geliştirme ile ilgili son kararı veren yöneticidir.
 
 **SDM**
 
-Software Develop Manager - Bütün projelerden sorumlu proje yöneticisidir.
+* Software Develop Manager - Bütün projelerden sorumlu proje yöneticisidir.
 
 **Developer**
 
-Projeye atanan ve geliştiricilerdir.
+* Projeye atanan ve geliştiricilerdir.
 
 **Stajer**
 
