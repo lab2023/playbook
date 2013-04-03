@@ -1,4 +1,4 @@
-# İmzalar
+# Email İmzaları
 
 Maillerin imzaları aşağıdaki standartta olacaktır.
 
