@@ -37,7 +37,7 @@ Github issue ve milestonelardan aldığı bilgiler ile Scrum yapmamıza yarayan 
 
 ## İş Takibi
 
-Proje dışındaki yapılacak işler için https://www.wunderlist.com/#/login kullanıyoruz.
+Proje dışındaki yapılacak işler için http://basecamp.com/ kullanıyoruz.
 
 ## Dökümantasyon
 
