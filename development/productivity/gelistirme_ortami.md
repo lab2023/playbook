@@ -10,7 +10,7 @@
 
 ### İş Takibi
 
-* Wunderlist
+* Basecamp
 
 ### Üretkenlik
 
@@ -26,7 +26,7 @@
 
 ### Tasarım
 
-* Pixelmater
+* Pixelmator
 * GIMP
 
 ### Geliştirme 
