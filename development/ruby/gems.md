@@ -209,6 +209,11 @@ Tarih validasyonları için kullanıyoruz.
 
 ## Development Tools
 
+#### letter_opener
+Geliştirme sürecinde proje içerisindeki mailleri göndermek yerine tarayıcıdan gösteriyor. Oluşturulan mailleri ise `tmp` klasörünün altına atıyor.
+
+* https://github.com/ryanb/letter_opener
+
 #### sextant
 Geliştirme sürecinde route' ları veiwde gösteren bir gem. rails 4 ile birlikte varsayılan olarak geliyor.
 
