@@ -48,7 +48,7 @@ Daha detaylı bilgi için  http://www.postgresql.org/files/documentation/pdf/9.2
 
 ## Kurulum
 
-### Ubuntu server
+### Ubuntu Server 12.04
 
 **Gerekli olan kütüphane**
 
@@ -76,6 +76,52 @@ sudo apt-get upgrade
 /etc/postgresql/9.2/main
 /var/lib/postgresql/9.2/main
 ````
+
+### Ubuntu Server 12.10
+
+Kuruluma başlamadan önce
+
+```$ sudo apt-get update && sudo apt-get upgrade```
+
+Ardından Aşağıdaki paket kuruluyor. Bu paketleri kurmamızın sebebi  ```add-apt-repository ppa:pitti/postgresql``` komutunu çalıştırabilmek içindir. Bu komut ubuntu 12.10 ile birlikte varsayılan olarak çalışmamakta.
+
+```$ sudo apt-get install python-software-properties &&  sudo apt-get install software-properties-common```
+
+Bu işlemlerin ardından postgresql 9.2 için gereken paketi repoya ekliyoruz. 
+
+```$ sudo add-apt-repository ppa:pitti/postgresql```
+
+Bu işlemlerden sonra aşağıdaki komutla repoları güncelliyoruz.
+
+```$ sudo apt-get update```
+
+Son olarak aşağıdaki komut ile postgresql 9.2 kurulumunu tamamlıyoruz. Ben kurulumu yaptıgım zamanda 9.2.4 kurulumunu yapmıştı.
+
+```console
+$ sudo apt-get install postgresql-9.2
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following extra packages will be installed:
+  libpq5 libxml2 postgresql-client-9.2 postgresql-client-common postgresql-common sgml-base ssl-cert xml-core
+Suggested packages:
+  oidentd ident-server locales-all postgresql-doc-9.2 sgml-base-doc openssl-blacklist debhelper
+The following NEW packages will be installed:
+  libpq5 libxml2 postgresql-9.2 postgresql-client-9.2 postgresql-client-common postgresql-common sgml-base
+  ssl-cert xml-core
+0 upgraded, 9 newly installed, 0 to remove and 2 not upgraded.
+Need to get 6,652 kB of archives.
+After this operation, 26.3 MB of additional disk space will be used.
+Do you want to continue [Y/n]? Y
+.....
+.....
+.....
+ * Starting PostgreSQL 9.2 database server                                                               [ OK ] 
+Processing triggers for libc-bin ...
+ldconfig deferred processing now taking place
+Processing triggers for sgml-base ...
+Updating the super catalog...
+```
 
 ### Mac geliştirme (homebrew)
 
