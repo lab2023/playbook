@@ -96,18 +96,24 @@ sudo apt-get upgrade
 * Serverin locale si ayarlanması
 * ENCODING'ı unutmayın!
 
-`CREATE DATABASE xxxx_production OWNER xxxx ENCODING 'UTF8' LC_COLLATE = 'en_US.UTF-8' LC_CTYPE = 'en_US.UTF-8' TEMPLATE template0;`
+```sql
+CREATE DATABASE xxxx_production OWNER xxxx ENCODING 'UTF8' LC_COLLATE = 'en_US.UTF-8' LC_CTYPE = 'en_US.UTF-8' TEMPLATE template0;
+````
 
 **DROP DB**
 
-`DROP DATABASE xxxx_production;`
+```sql
+DROP DATABASE xxxx_production;
+````
 
 **Can't Drop Db Sorunsali**
 
 DB yi kullanan sessionlarin olmasi durumu.
 
-`SELECT pid FROM pg_stat_activity where pid <> pg_backend_pid();`
-`SELECT pg_terminate_backend(pid);`
+```sql
+SELECT pid FROM pg_stat_activity where pid <> pg_backend_pid();
+SELECT pg_terminate_backend(pid);
+````
 
 ### Bağlantı ve Yetkilendirme
 
