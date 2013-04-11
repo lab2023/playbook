@@ -40,7 +40,7 @@ Ruby nesle tabanlı bir programlama dilidir.
 Rails, DHH tarafından oluşturulmuş Ruby dilindeki web frameworküdür.
 
 # Background jobs
-Kullancıyı süre olarak bekletecek işlemleri arkaplan işlerine alıyoruz.
+Kullancıyı süre olarak bekletecek işlemleri arkaplan işlerine alıyoruz. Örneğin mail göndermek, excelden veri almak gibi.
 ## Resque
 [resque](https://github.com/defunkt/resque) Arkaplan işlerini yönetir.
 ## resque_mailer
