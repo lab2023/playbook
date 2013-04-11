@@ -12,7 +12,8 @@
 Backup işlemleri için [backup](https://github.com/meskyanichi/backup) gemini kullanıyoruz. Veritabanı yedeği, assets(resim, video) yedekleri ve log yedeklerini almamız yeterli. Uygulamalarımızı githubda geliştirdiğimiz için uygulamanın yedeğini alma ihtiyacı duymuyoruz. Yedeği hem locale hemde yedek işlemleri için ayırdığımız sunucuya alıyoruz.
 
 ### Log Yedekleri
-Log dosyalarının çok şişmesi genel problemimiz. Biz bunu nasıl çözüyoruz ? Linux logrotate kullanıyoruz. `/etc/logrotate.conf` . Logrotate log dosyalarını rotate ederek şişmesini önler.
+Log dosyalarının çok şişmesi genel problemimiz. Biz bunu nasıl çözüyoruz ? Linux logrotate kullanıyoruz . Logrotate log dosyalarını rotate ederek şişmesini önler.
+Logrotate kullanmak için `/etc/logrotate.conf` dosyasına aşağıdaki kodları ekliyoruz.
 
 ```bash
 # Rotate Rails application logs
