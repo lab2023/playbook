@@ -13,6 +13,6 @@ Backup işlemleri için [backup](https://github.com/meskyanichi/backup) gemini k
 
 # Monitoring
 ## Exception Notification (Hata Bildirici)
-Todo...
+Sunucudaki 500 hatalrından haberdar olmak için [exception_notification](https://github.com/smartinez87/exception_notification) gemini kulanıyoruz. Gem sunucu 500 verirse anında bize mail atıyor. Gemin kullanımı ile ilgili şu yazıyı http://www.muhammetdilek.com/blog/2013/04/04/exception-notification-hata-bildirici/ okuyabilirsiniz.
 
 # Heroku
