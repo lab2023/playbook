@@ -134,3 +134,52 @@ Bir yayımın bitmesi git-flow için büyük bir iştir. Aşağıdakileri yapar.
 * http://buildamodule.com/video/change-management-and-version-control-deploying-releases-features-and-fixes-with-git-how-to-use-a-scalable-git-branching-model-called-gitflow
 * http://vimeo.com/16018419
 * http://vimeo.com/37408017
+
+
+# GELİŞTİRME ORTAMININ AYARLANMASI
+
+## Mac
+
+### İletişim
+
+* GTalk
+* Google Mail grubu
+* Xchat Azur
+
+### İş Takibi
+
+* Basecamp
+
+### Üretkenlik
+
+* Google Chrome
+* Twitter
+* Marked
+* Keynote
+* iBook
+* KeepAssX-2.0
+* Camtasia for mac
+* Mac Keeper
+* Dropbox
+
+### Tasarım
+
+* Pixelmator
+* GIMP
+
+### Geliştirme 
+
+* SourceTree
+* Sublime 2
+* RubyMine
+* FileZilla
+* Dash
+* http://www.iterm2.com/
+* Virtual Box
+
+### Kütüphane
+
+* xCode
+* Command Line within xCode
+* Mac Intstaller
+* Pow
