@@ -191,4 +191,4 @@ SELECT pg_terminate_backend(pid);
 ## Backup - Restore
 
 * http://www.postgresql.org/docs/9.2/interactive/backup.html
-* http://muhammetdilek.dudupress.com/articles/postgresql-yedek-alma-ve-geri-yukleme
+* http://www.muhammetdilek.com/blog/2013/01/21/postgresql-yedek-alma-ve-geri-yukleme/
