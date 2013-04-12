@@ -1,6 +1,6 @@
 # Development
 
-Bu bölüm lab2023 geliştiricileri için standartların ve notların alındığı bölümdür.
+Bu bölüm, lab2023 geliştiricileri için standartların ve notların alındığı bölümdür.
 
 Toplam beş alt bölümden oluşur.
 
