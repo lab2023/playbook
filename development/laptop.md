@@ -48,4 +48,4 @@
 
 ## Ubuntu
 
-* RVM
+* Rbenv
