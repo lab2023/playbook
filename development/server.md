@@ -230,6 +230,7 @@ SELECT pg_terminate_backend(pid);
 
 * http://www.postgresql.org/docs/9.2/interactive/backup.html
 * http://www.muhammetdilek.com/blog/2013/01/21/postgresql-yedek-alma-ve-geri-yukleme/
+* https://github.com/tayfunoziserikan/articles/blob/master/PostgreSQL%20AB2013%20Eg%CC%86itim%20Notlar%C4%B1%20-%20I.md#yedekleme--geri-ykleme-backup--restore
 
 # Redis
 
