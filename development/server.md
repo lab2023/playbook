@@ -41,6 +41,12 @@ $ export LANGUAGE=en_US.UTF-8 && export LANG=en_US.UTF-8 && export LC_ALL=en_US.
 $ apt-get update && apt-get upgrade
 ```
 
+## Htop kurun (Bu bir tavsiyedir)
+
+```bash
+$ apt-get install htop
+```
+
 ## Bir Deployer kullanıcısı ekleyin
 
 Bunun için öncesinde bir admin grubu oluşturmalısınız ve ardından deployer adında bir kullanıcıyı bu gruba ekleyin.
@@ -144,7 +150,20 @@ $ ssh git@github.com
 # Permission denied (publickey).
 ```
 
-...TODO...
+Sunucuya GitHub reponuzda bulunan Settings > Deploy Keys sekmesine eklemek üzere bir public ssh_key oluşturun. 
+Deploy sırasında GitHub'ın sormaması için herhangi bir şifre vermeyin. Böylelikle deploy süreci hızlanmış olacaktır.
+
+```bash
+$ ssh-keygen -t rsa -C "user@example.com"
+# GitHub üyelik e-postanız veya herhangi bir e-posta adresi.
+# Örneğin sunucuda barındırılacak ygulamanın info@... adresi olabilir.
+```
+
+Oluşturulan public ssh_key'in içeriğini kopyalayın ve GitHub'da belirtilen sekmeye gidip "Add Deploy Key" diyerek ekleyin.
+
+```bash
+$ cat ~/.ssh/id_rsa.pub
+```
 
 # Rbenv
 
