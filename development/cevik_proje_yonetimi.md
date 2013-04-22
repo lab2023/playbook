@@ -24,7 +24,7 @@ Etiketlerin anlamları:
 * 1 – Ready : Analizi tamamlanmış, detaylandırılması yapılmış, geliştirilmeye hazır iş birimi
 * 2 – In Progress : Geliştirici iş birimini geliştirmeye başlamış, yani geliştiricini hali hazırda üzerinde çalıştığı iş birimi
 * 3 – Done : Geliştirici iş birimini geliştirmeyi tamamlamış, geliştirme ortamında çalışan iş birimi.
-* 4 – Reviewed : Geliştiricinin tammaladığı iş birimi kontrol edilmiş, yazım standartlarına uygun olduğu, istenilen işlevi yaptığı ve çalışır olduğu doğrulanmış iş birimi. Üretim ortamına atılabilir, yayınlamaya hazır işe birimi.
+* 4 – Reviewed : Geliştiricinin tamamladığı iş birimi kontrol edilmiş, yazım standartlarına uygun olduğu, istenilen işlevi yaptığı ve çalışır olduğu doğrulanmış iş birimi. Üretim ortamına atılabilir, yayınlamaya hazır işe birimi.
 
 # Semantik Versiyonlama
 
