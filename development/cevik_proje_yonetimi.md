@@ -46,26 +46,10 @@ lab2023 olarak www.semver.org adresinde ki standartlara göre versiyonlama yapı
 
 lab2023 projelerinde github'da 4 adet etiket açılır.
 
-* Bug 
-* Enhancement
-* Question
-* Future
-
-**Bug**
-
-Hata bildirimleri için kullanılır.
-
-**Enhancement**
-
-Programdaki bir özelliği veya arayüzü iyileştirmek için kullanılır.
-
-**Question**
-
-Soru sormak, öneride bulunmak veya tartışmak için kullanılır.
-
-**Future**
-
-Proje süresince müşterinin aklına gelen ancak anlaşmadığımız gelecekte yapılması planlanan işlerdir. Bunlar yapılmaz ancak fikirler unutulmasın diye future etiketi ile etiketlenir.
+* **Bug** - Hata bildirimleri için kullanılır.
+* **Enhancement** - Programdaki bir özelliği veya arayüzü iyileştirmek için kullanılır.
+* **Question** - Soru sormak, öneride bulunmak veya tartışmak için kullanılır.
+* **Future** - Proje süresince müşterinin aklına gelen ancak anlaşmadığımız gelecekte yapılması planlanan işlerdir. Bunlar yapılmaz ancak fikirler unutulmasın diye future etiketi ile etiketlenir.
 
 NOT: 
 
