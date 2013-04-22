@@ -91,7 +91,7 @@ nginx: [emerg] still could not bind()
    ...done.
 ```
 
-Nano v.b. bir editör ile Nginx defaul site ayarlarını açın.
+Nano v.b. bir editör ile Nginx default site ayarlarını açın.
 
 ```bash
 $ nano /etc/nginx/sites-available/default
@@ -218,6 +218,16 @@ $ gem install bundler --no-ri --no-rdoc
 $ rbenv rehash
 $ bundle -v
 
+```
+
+# Node.js
+
+En temel haliyle Rails projelerinde assets-precompile işlemleri için node.js'in de sunucuda kurulu olması gerekmektedir.
+
+```bash
+$ add-apt-repository ppa:chris-lea/node.js
+$ apt-get update
+$ apt-get install nodejs
 ```
 
 # Unicorn
