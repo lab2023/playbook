@@ -25,6 +25,20 @@ Etiketlerin anlamları:
 * 3 – **Done** : Geliştirici iş birimini geliştirmeyi tamamlamış, geliştirme ortamında çalışan iş birimi.
 * 4 – **Reviewed** : Geliştiricinin tamamladığı iş birimi kontrol edilmiş, yazım standartlarına uygun olduğu, istenilen işlevi yaptığı ve çalışır olduğu doğrulanmış iş birimi. Üretim ortamına atılabilir, yayınlamaya hazır işe birimi.
 
+## Github ve Etiketler
+
+lab2023 projelerinde github'da 4 adet etiket açılır.
+
+* **Bug** - Hata bildirimleri için kullanılır.
+* **Enhancement** - Programdaki bir özelliği veya arayüzü iyileştirmek için kullanılır.
+* **Question** - Soru sormak, öneride bulunmak veya tartışmak için kullanılır.
+* **Future** - Proje süresince müşterinin aklına gelen ancak anlaşmadığımız gelecekte yapılması planlanan işlerdir. Bunlar yapılmaz ancak fikirler unutulmasın diye future etiketi ile etiketlenir.
+
+NOT: 
+
+1. wontfix, dublicate, invalid gibi etiketler kullanılmaz. 
+2. Eğer yeni iş istek varsa buna etiket yapılmaz. 
+
 # Semantik Versiyonlama
 
 lab2023 olarak www.semver.org adresinde ki standartlara göre versiyonlama yapıyoruz. Bu reponun Türkçesini https://github.com/lab2023/semver/blob/tr_translation/locales/semver.tr.md adresinde bulabilirsiniz.
@@ -41,20 +55,6 @@ lab2023 olarak www.semver.org adresinde ki standartlara göre versiyonlama yapı
 * Her uygulmanın versiyonunu gösteren bir API si olmalıdır. Yani kullancılar, diğer developerlar mutlaka hangi sürümü kullandıklarını bilmelidir! **Bu programcının birinci ve en önemli görevidir.**
 * Versiyonlamada [0-9A-Za-z-] ifadelerini kullanabilirsiniz.
 * 1.0.0-alpha.1 gibi prepatchleri kullanmanızı biz lab2023 olarak önermiyoruz. Hayat zaten yeterince karışık!
-
-## Github ve Etiketler
-
-lab2023 projelerinde github'da 4 adet etiket açılır.
-
-* **Bug** - Hata bildirimleri için kullanılır.
-* **Enhancement** - Programdaki bir özelliği veya arayüzü iyileştirmek için kullanılır.
-* **Question** - Soru sormak, öneride bulunmak veya tartışmak için kullanılır.
-* **Future** - Proje süresince müşterinin aklına gelen ancak anlaşmadığımız gelecekte yapılması planlanan işlerdir. Bunlar yapılmaz ancak fikirler unutulmasın diye future etiketi ile etiketlenir.
-
-NOT: 
-
-1. wontfix, dublicate, invalid gibi etiketler kullanılmaz. 
-2. Eğer yeni iş istek varsa buna etiket yapılmaz. 
 
 # Üretkenlik
 
