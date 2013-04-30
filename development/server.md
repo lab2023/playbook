@@ -37,8 +37,13 @@ $ export LANGUAGE=en_US.UTF-8 && export LANG=en_US.UTF-8 && export LC_ALL=en_US.
 
 ## Eğer Sunucuda Apache2 ve MySQL gibi şu anda kullanmak istemeceğiniz paketler varsa kaldırın.
 
-```bash
-$ apt-get update && apt-get upgrade
+```
+$ dpkg --get-selections # Size mevcut kurulu paketleri gösterir
+$ sudo apt-get --purge remove apache2*
+$ service apache2 stop
+$ sudo apt-get remove --purge mysql-server mysql-client mysql-common
+$ sudo apt-get autoremove
+$ sudo apt-get autoclean
 ```
 
 ## Htop kurun (Bu bir tavsiyedir)
