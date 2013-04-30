@@ -52,17 +52,6 @@ $ sudo apt-get autoclean
 $ apt-get install htop
 ```
 
-## Bir Deployer kullanıcısı ekleyin
-
-Bunun için öncesinde bir admin grubu oluşturmalısınız ve ardından deployer adında bir kullanıcıyı bu gruba ekleyin.
-
-```bash
-$ groupadd admin && adduser deployer --ingroup admin
-```
-
-Kullanıcı şifresini ve verilen soruları cevaplayın. Artık deployer kullanıcımız oluşturuldu. 
-Bu kullanıcıya daha sonra ruby rbenv ve diper deploy süreçlerinde ihtiyaç duyacağız.
-
 Sıradakı aşama olan Nginix kurulumuna başlayabilirisiniz...
 
 # Nginx
@@ -170,6 +159,17 @@ Oluşturulan public ssh_key'in içeriğini kopyalayın ve GitHub'da belirtilen s
 $ cat ~/.ssh/id_rsa.pub
 ```
 
+## Bir Deployer kullanıcısı ekleyin
+
+Bunun için öncesinde bir admin grubu oluşturmalısınız ve ardından deployer adında bir kullanıcıyı bu gruba ekleyin.
+
+```bash
+$ groupadd admin && adduser deployer --ingroup admin
+```
+
+Kullanıcı şifresini ve verilen soruları cevaplayın. Artık deployer kullanıcımız oluşturuldu. 
+Bu kullanıcıya daha sonra ruby rbenv ve diper deploy süreçlerinde ihtiyaç duyacağız.
+
 # Rbenv
 
 Sunucumuza Rbenv kurabilmek için öncesinde deployer olarak ssh bağlantısı oluşturmalıyız.
@@ -177,6 +177,13 @@ Sunucumuza Rbenv kurabilmek için öncesinde deployer olarak ssh bağlantısı o
 ```bash
 $ ssh deployer@127.0.0.1 -p xxxx
 ```
+
+Yada eğer root olarak bağlı iseniz
+
+```bash
+$ su - deployer
+```
+
 
 Bu işlemden sonra aşlağıdaki paketleri kurun. Bu paketlerden daha önceden mevcut kurulu olanlar olabilir.
 
@@ -190,6 +197,7 @@ ayarlarını yapıp tekrar başlatın.
 ```bash
 $ cd ~
 $ git clone git://github.com/sstephenson/rbenv.git .rbenv
+$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 $ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 $ exec $SHELL
 ```
