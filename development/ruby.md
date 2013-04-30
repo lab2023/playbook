@@ -4,7 +4,7 @@ lab2023 internet teknolojileri olarak projelerimizi daha çok Ruby ekosisteminde
 
 ## Ruby
 
-Ruby nesle tabanlı bir programlama dilidir.
+Ruby nesne tabanlı bir programlama dilidir.
 
 **Websitesi**
 * http://www.ruby-lang.org
