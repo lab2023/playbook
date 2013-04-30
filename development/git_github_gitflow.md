@@ -33,7 +33,8 @@ Kurulum esnasında git-flow dal (branch), yayım (release), etiket (tag) ön ekl
 
 ### Başlayalım
 
-Havuza (repository) git-flow'un kurulması için  `git flow init` kodu koşuyoruz. Unutmayın git-flow için sizin önceden git havuzunuz olmalıdır.
+Havuza (repository) git-flow'un kurulması için  `git flow init` kodu koşuyoruz. 
+Eğer git havuzunuz yoksa, git-flow bunu sizin için hazırlar.
 
 ### Özellikler (Features)
 
