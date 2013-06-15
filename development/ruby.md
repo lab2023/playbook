@@ -142,6 +142,11 @@ Nested formları yönetmemizi sağlıyor. Form generator için gem kullanıyorsa
 
 ## Server Side
 
+#### https://github.com/kjvarga/sitemap_generator
+sitemap.xml.gz oluşturur.
+
+* https://github.com/kjvarga/sitemap_generator
+
 #### rails_config
 Projeye config ayarları eklememizi sağlıyor.
 
@@ -242,12 +247,6 @@ Kullanıcı davet sistemi için kullanıyoruz. İsmindende anlaşılacağı gibi
 * https://github.com/scambra/devise_invitable
 * Ruby doc link
 
-#### wice_grid
-Twitter bootstrap tema uyumlu grid generator. Filtreleme, excel export, sayfalama mevcut.
-* ruby-toolbox linki
-* https://github.com/leikind/wice_grid
-* http://rubydoc.info/gems/wice_grid/3.2.1/frames
-
 #### enumerize
 ActiveRecord ve i18n destekli enum türünde veri oluşturmamızı sağlıyor. Örneğin `homes` tablosundaki `home_type` alanı için model katmanında enumları belirleyerek kullanabiliriz. Simple Form desteği mevcut.
 * ruby-toolbox linki
@@ -320,3 +319,10 @@ Devise geminin bir çok dilde i18n dasyalarını barındırır.
 Modellerin locale dosyalarını oluşturur ve eski dosyalar ile senkronize eder.
 
 * http://github.com/amatsuda/i18n_generators
+
+#### tolk
+Yml formatında ki dil dosyalarının çevrilmesi için bir arayüz sağlar.
+
+* http://rubygems.org/gems/tolk
+* http://rubydoc.info/gems/tolk/1.3.9/frames
+* https://github.com/tolk/tolk
