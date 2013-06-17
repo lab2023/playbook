@@ -44,3 +44,32 @@ Bir işi yapmadan önce yapılması gereken işlerin listesidir.
 
 * Yazan kişişi - Mail grubuna mail atmak
 * Sosyal medya sorumlusu - Twitter ve Facebook hesabında paylaşılması
+
+## Yeni Sürüm Çıkarılması
+
+**Açık Kaynak Projelerde**
+
+* VERSION.txt değişmeli
+* CHANGELOG.md değişmeli
+* Yeni etiket oluşturulmalı
+* Yeni etiket, master ve develop branch push edilmeli
+* lab2023-dev mail grubuna email atılmalı
+
+Sonra
+
+* Yeni versiyon ile ilgili lab2023'e makale yazılmalı.
+* Blog yazısında versiyonda ne olduğu anlatılmalı ve rubygems, changelog gibi unsurlara link verilmeli
+* Blog yazısı twitter ve facebook hesabından paylaşılmalı
+
+NOT: Kendinize işkence yapmayın! Git-flow kullanın.
+
+**Müşteri Projelerinde**
+
+* VERSION.txt değişmeli
+* CHANGELOG.md değişmeli
+* Yeni etiket oluşturulmalı
+* Yeni etiket, master ve develop branch push edilmeli
+* Proje email grubuna email atılmalı
+* Staging sunucusuna deploy edilmeli
+
+NOT: Hotfix olmadıkça yeni sürümler cumadan cumaya çıkar.
