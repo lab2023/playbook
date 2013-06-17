@@ -40,3 +40,7 @@ Bir işi yapmadan önce yapılması gereken işlerin listesidir.
 * Periyodik yedek alınıyor mu?
 * Sunucu şifreleri Keepass programına girildi mi?
 
+## Siteye Makale Yazılması
+
+* Yazan kişişi - Mail grubuna mail atmak
+* Sosyal medya sorumlusu - Twitter ve Facebook hesabında paylaşılması
