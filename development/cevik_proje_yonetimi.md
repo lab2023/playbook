@@ -11,19 +11,21 @@ Proje yönetimi için çevik süreçler kullanılır.
 
 Huboard' un proje üzerinde uygulanması için github'da aşağıdaki 5 etiket açılır:
 
-* 0 – Backlog
-* 1 – Ready
-* 2 – In Progress
-* 3 – Done
-* 4 – Reviewed
+* 0 - Backlog
+* 1 - Ready
+* 2 - In Progress
+* 3 - Done
+* 4 - Reviewed
+* 5 - Rejected
 
 Etiketlerin anlamları:
 
-* 0 – **Backlog** : Müşteri ile görüşülmeye devam eden veya görüşülmüş, detaylandırılması sonuçlanmamış, yani henüz analizi tamamlanmamış iş birimi.
-* 1 – **Ready** : Analizi tamamlanmış, detaylandırılması yapılmış, geliştirilmeye hazır iş birimi
-* 2 – **In Progress** : Geliştirici iş birimini geliştirmeye başlamış, yani geliştiricini hali hazırda üzerinde çalıştığı iş birimi
-* 3 – **Done** : Geliştirici iş birimini geliştirmeyi tamamlamış, geliştirme ortamında çalışan iş birimi.
-* 4 – **Reviewed** : Geliştiricinin tamamladığı iş birimi kontrol edilmiş, yazım standartlarına uygun olduğu, istenilen işlevi yaptığı ve çalışır olduğu doğrulanmış iş birimi. Üretim ortamına atılabilir, yayınlamaya hazır işe birimi.
+* 0 - **Backlog** : Müşteri ile görüşülmeye devam eden veya görüşülmüş, detaylandırılması sonuçlanmamış, yani henüz analizi tamamlanmamış iş birimi.
+* 1 - **Ready** : Analizi tamamlanmış, detaylandırılması yapılmış, geliştirilmeye hazır iş birimi
+* 2 - **In Progress** : Geliştirici iş birimini geliştirmeye başlamış, yani geliştiricini hali hazırda üzerinde çalıştığı iş birimi
+* 3 - **Done** : Geliştirici iş birimini geliştirmeyi tamamlamış, geliştirme ortamında çalışan iş birimi.
+* 4 - **Reviewed** : Geliştiricinin tamamladığı iş birimi kontrol edilmiş, yazım standartlarına uygun olduğu, istenilen işlevi yaptığı ve çalışır olduğu doğrulanmış iş birimi. Üretim ortamına atılabilir, yayınlamaya hazır iş birimi.
+* 5 - **Rejected** : Geliştiricinin tamamladığı iş birimi kontrol edilmiş, ancak yazım standartlarına uyulmadığı, istenilen işlevi yapmadığı veya doğru çalışmadığı tespit edilmiş iş birimi.
 
 ## Github ve Etiketler
 
