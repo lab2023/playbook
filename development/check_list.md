@@ -67,10 +67,14 @@ Bu iş için bir standartınız olursa güzel olabilir.
 Unutmamak lazım ki versiyonlamayı Semver.org kullanıyoruz. Unutmayalım ki ilk milestonemuz 0.1.0 olmalıdır.
 Bknz [semver.org](semver.org)
 
-D. LICENSE.txt dosyasını eklemeliyiz. MIT candır. Örnek olarak [https://github.com/lab2023/builder/blob/master/LICENSE.txt](https://github.com/lab2023/builder/blob/master/LICENSE.txt)
+**LICENSE.txt dosyasını eklemeliyiz**
+
+MIT candır. Örnek olarak [https://github.com/lab2023/builder/blob/master/LICENSE.txt](https://github.com/lab2023/builder/blob/master/LICENSE.txt)
 dosyasına bakabilirsiniz.
 
-E. Projeyi [git-flow](https://github.com/nvie/gitflow) ile yönetmeliyiz. Branchlar ile manuel uğraşmamanız gerekir.
+**Projeyi [git-flow](https://github.com/nvie/gitflow) ile yönetmeliyiz**
+
+Etkin geliştirme süreçleri için git branchlar ile manuel uğraşmamanız gerekir.
 
 ## Sunucu Kurulumu
 
