@@ -74,7 +74,13 @@ dosyasına bakabilirsiniz.
 
 **Projeyi [git-flow](https://github.com/nvie/gitflow) ile yönetmeliyiz**
 
-Etkin geliştirme süreçleri için git branchlar ile manuel uğraşmamanız gerekir.
+Etkin geliştirme süreçleri için git branchlar ile manuel uğraşmamamız gerekir.
+
+**CHANGELOG.md dosyasını oluşturmalıyız**
+
+Oluşturulan haftalık iterasyonlar, milestone'lar ve issue'ların hangi versiyonlara ait olduğunu gösteren genel bir
+changelog oluşturmalıyız. Ve her release'de güncellemeliyiz. Bu süreçleri otomatikleştirmek için hazırladığımız
+ruby rake görevlerini içeren [katip](https://github.com/lab2023/katip) adlı projemize göz atabilirsiniz.
 
 ## Sunucu Kurulumu
 
