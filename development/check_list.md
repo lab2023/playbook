@@ -11,6 +11,8 @@ Bir işi yapmadan önce yapılması gereken işlerin listesidir.
 
 ## Proje Başlangıcı
 
+Aşağıdaki kontrol listesini açık Kaynaklı veya özel projeler için uygulayınız.
+
 **Müşteri adına açılacak hesaplar**
 
 * Gmail mail adresi
@@ -33,6 +35,42 @@ Bir işi yapmadan önce yapılması gereken işlerin listesidir.
 * Proje yöneticisi sözleşme ek1′e göre github issuelardan iterasyonları ayarlar. Böylece huboard kullanılmaya başlanır.
 * Müşteri ile github, huboard, çevik süreçler ile ilgili kaynaklar paylaşılır. Müşteriye kısa bir bilgi verilir.
 * Stagging ve production için sunucu kurulur. Bu işlem daha ilk kod yazılması ile yapılır.
+
+**Araçlar**
+
+* Github, git versiyon kontrol sitesi
+* Huboard, github etiketleri ile oluşturulmuş bir kanban
+* Semver
+* Gitflow
+* Yapılacak iş listesi
+
+**Huboard ve topluluk için Github etiketlerini için düzenlemek.**
+
+* 0 – Backlog [HEX: #DDDDDD]
+* 1 – Ready [HEX: #FBCA04]
+* 2 – In Progress [HEX: #07D8E2]
+* 3 – Done [HEX: #02E10C]
+* 4 – Reviewed [HEX: #1007E2]
+* 5 – Rejected [HEX: ##F7C6C7]
+* Enhancement [HEX: #84B6EB]
+* Bug [HEX: #FC2929]
+* Future [HEX: #E6E6E6]
+* Question [HEX: #CC307C]
+
+**README.md dosyasını güncellemeyiliz**
+
+Bu iş için bir standartınız olursa güzel olabilir.
+Örnek olarak [https://github.com/kebab-project/cybele/blob/develop/README.md](https://github.com/kebab-project/cybele/blob/develop/README.md) dosyasına bakabilirsiniz
+
+**VERSION.txt dosyasını eklemeliyiz**
+
+Unutmamak lazım ki versiyonlamayı Semver.org kullanıyoruz. Unutmayalım ki ilk milestonemuz 0.1.0 olmalıdır.
+Bknz [semver.org](semver.org)
+
+D. LICENSE.txt dosyasını eklemeliyiz. MIT candır. Örnek olarak [https://github.com/lab2023/builder/blob/master/LICENSE.txt](https://github.com/lab2023/builder/blob/master/LICENSE.txt)
+dosyasına bakabilirsiniz.
+
+E. Projeyi [git-flow](https://github.com/nvie/gitflow) ile yönetmeliyiz. Branchlar ile manuel uğraşmamanız gerekir.
 
 ## Sunucu Kurulumu
 
