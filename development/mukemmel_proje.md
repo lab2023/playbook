@@ -26,9 +26,9 @@ bile hayallerini gerçekleştirmeyeceğinden mükemmel bir uygulama olmayacaktı
 # Uygulamanın Pazarlama Stratejisine Uygunluğu
 
 Bütün uygulamalarda pazarlama unsuru olması gerekmez ancak start-up'ların bir çoğunda pazarlama 
-hatta internet üzerinden pazarlama vardır. Bir çok müşteri fikrine çok inanır ancak fikirler ne m 
-kadar özgün olursa olsun pazarlama olmadan olmaz!. Bizler müşterilerimize pazarlama konusunda da yardımcı
-olmak zorundayız.
+hatta internet üzerinden pazarlama vardır. Bir çok müşteri fikrine çok inanır ancak fikirler ne 
+kadar özgün olursa olsun pazarlama olmadan olmaz!. Bizler müşterilerimize pazarlama konusunda da 
+yardımcı olmak zorundayız.
 
 * Yapılan uygulamada bir pazarlama unsuru olacak mı ? 
 * Eğer olacaksa internet üzerinden tanıtım ve satış yapılacak mı ?
