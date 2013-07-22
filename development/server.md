@@ -211,7 +211,7 @@ Herşey yolunda gidiyorsa şu şekilde bir çıktı almalısınız: ```/home/dep
 $ mkdir -p ~/.rbenv/plugins
 $ cd ~/.rbenv/plugins
 $ git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
-$ git clone git://github.com/sstephenson/rbenv-gem-rehash.git
+$ git clone https://github.com/sstephenson/rbenv-gem-rehash.git ~/.rbenv/plugins/rbenv-gem-rehash
 $ rbenv install 2.0.0-p0
 $ rbenv rehash
 $ rbenv global 2.0.0-p0
