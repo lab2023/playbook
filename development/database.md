@@ -36,7 +36,7 @@ Daha detaylı bilgi için  http://www.postgresql.org/files/documentation/pdf/9.2
 
 * Veritabanında bir limit sınırımız yok.
 * Bir tablo 32 TB olabilir.
-* Bir starın uzunluğun max 1.6 TB olabilir.
+* Bir satırın uzunluğun max 1.6 TB olabilir.
 * Bir satırın bir columnu max 1 TB olabilir.
 * Bir tabloda 250 den fazla index olmamalı fazlası sıkıntıdır.
 
