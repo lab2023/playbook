@@ -383,8 +383,8 @@ end
 
 Gemfile a `gem 'unicorn'` ekleyelim. `config/unicorn_init_production` ve `config/unicorn_init_staging` dosyalarını oluşturalım. Dosyaları şu şekilde güncelleyelim.
 
-https://gist.github.com/muhammetdilek/d45a30d5fd26889ef5ea
-https://gist.github.com/muhammetdilek/d37e6b31d1b02e652255
+* https://gist.github.com/muhammetdilek/d45a30d5fd26889ef5ea
+* https://gist.github.com/muhammetdilek/d37e6b31d1b02e652255
 
 `project_name` kısmını proje ismiyle değiştiriniz.
 
