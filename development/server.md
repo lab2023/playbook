@@ -245,6 +245,194 @@ $ apt-get install nodejs
 
 # Unicorn
 
+# Capistrano
+
+`gem install capistrano`
+
+`gem install capistrano-ext`
+
+Gemleri kurduktan sonra `capify .` komutunu çalıştıralım. Oluşan `config/deploy.rb` dosyasını aşağıdaki gibi düzenleyelim.
+
+```ruby
+# -*- encoding : utf-8 -*-
+require "bundler/capistrano"
+require "whenever/capistrano"
+
+
+set :stages, %w(staging production)
+set :default_stage, "production"
+require 'capistrano/ext/multistage'
+
+default_run_options[:pty] = true
+
+set :whenever_command, "bundle exec whenever"
+
+set :application, "project_name"
+set :user, "deployer"
+set :deploy_to, "/home/#{user}/apps/#{application}"
+
+set :deploy_via, :remote_cache
+set :use_sudo, false
+
+set :scm, "git"
+set :repository, "git@github.com:UserName/#{application}.git"
+set :branch, "master"
+
+default_run_options[:pty] = true
+ssh_options[:forward_agent] = true
+
+after "deploy", "deploy:cleanup" # keep only the last 5 releases
+
+
+after "deploy:symlink", "deploy:update_crontab"
+
+namespace :deploy do
+
+  task :precompile, :role => :app do
+    run "cd #{release_path}/ && rake assets:precompile"
+  end
+
+  after "deploy:finalize_update", "deploy:precompile"
+
+  %w[start stop restart].each do |command|
+    desc "#{command} unicorn server"
+    task command, roles: :app, except: {no_release: true} do
+      run "/etc/init.d/unicorn_#{application} #{command}"
+    end
+  end
+
+  after "deploy:setup", "deploy:setup_config"
+
+  task :symlink_config, roles: :app do
+    run "ln -nfs #{shared_path}/config/database.yml #{release_path}/config/database.yml"
+  end
+  after "deploy:finalize_update", "deploy:symlink_config"
+
+  desc "Make sure local git is in sync with remote."
+  task :check_revision, roles: :web do
+    unless `git rev-parse HEAD` == `git rev-parse origin/master`
+      puts "WARNING: HEAD is not the same as origin/master"
+      puts "Run `git push` to sync changes."
+      exit
+    end
+  end
+  before "deploy", "deploy:check_revision"
+
+  task :install_bundler, :roles => :app do
+    run "type -P bundle &>/dev/null || { gem install bundler --no-rdoc --no-ri; }"
+  end
+  before "deploy:cold", "deploy:install_bundler"
+
+  desc "Update the crontab file"
+  task :update_crontab, :roles => :db do
+    run "cd #{release_path} && whenever --update-crontab #{application}"
+  end
+  after "deploy:update_crontab", "deploy:resque_setup"
+
+  desc "Resque QUEUE Start"
+  task :resque_setup, :roles => :db do
+    #run "cd #{release_path} && resque:work QUEUE='*'"
+  end
+end
+
+# Production
+set :default_environment, {
+    'PATH' => "$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH"
+}
+
+after "deploy", "deploy:cleanup"
+```
+
+`config/deploy/production.rb` ve `config/deploy/staging.rb` dosyalarını oluşturalım.
+
+```ruby
+server "2.2.2.2", :web, :app, :db, primary: true
+set :port, 2222
+set :rails_env, 'production'
+
+namespace :deploy do
+  task :setup_config, roles: :app do
+    # Production
+    sudo "ln -nfs #{current_path}/config/nginx.conf /etc/nginx/sites-enabled/#{application}"
+
+    sudo "ln -nfs #{current_path}/config/unicorn_init_#{rails_env}.sh /etc/init.d/unicorn_#{application}"
+    run "mkdir -p #{shared_path}/config"
+    put File.read("config/database.example.yml"), "#{shared_path}/config/database.yml"
+    puts "Now edit the config files in #{shared_path}."
+  end
+end
+```
+
+```ruby
+server "1.1.1.1", :web, :app, :db, primary: true
+set :port, 1111
+set :rails_env, 'staging'
+
+namespace :deploy do
+  task :setup_config, roles: :app do
+    # Staging
+    sudo "ln -nfs #{current_path}/config/nginx.conf /etc/nginx/sites-enabled/#{application}"
+
+    sudo "ln -nfs #{current_path}/config/unicorn_init_#{rails_env}.sh /etc/init.d/unicorn_#{application}"
+    run "mkdir -p #{shared_path}/config"
+    put File.read("config/database.example.yml"), "#{shared_path}/config/database.yml"
+    puts "Now edit the config files in #{shared_path}."
+  end
+end
+```
+
+Gemfile a `gem 'unicorn'` ekleyelim. `config/unicorn_init_production` ve `config/unicorn_init_staging` dosyalarını oluşturalım. Dosyaları şu şekilde güncelleyelim.
+
+https://gist.github.com/muhammetdilek/d45a30d5fd26889ef5ea
+https://gist.github.com/muhammetdilek/d37e6b31d1b02e652255
+
+`project_name` kısmını proje ismiyle değiştiriniz.
+
+`config/database.example.yml` dosyasını oluşturup sunucu için kullancağınız veritabnı bilgilerini yazınız.
+
+`config/nginx.conf` dosyasını oluşturup aşağıdaki gibi güncelleyiniz.
+
+```shell
+ upstream project_name {
+   server unix:/tmp/unicorn.project_name.sock fail_timeout=0;
+ }
+
+ server {
+   listen 80;
+   server_name *.tatilkiralamasistemi.com tatilkiralamasistemi.com;
+   root /home/deployer/apps/project_name/current/public;
+
+   location ^~ /assets/ {
+     gzip_static on;
+     expires max;
+     add_header Cache-Control public;
+   }
+
+   try_files $uri/index.html $uri @project_name;
+   location @project_name {
+     proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+     proxy_set_header Host $http_host;
+     proxy_redirect off;
+     proxy_pass http://project_name;
+   }
+
+   error_page 500 502 503 504 /500.html;
+   client_max_body_size 4G;
+   keepalive_timeout 10;
+ }
+```
+
+`project_name` olan yerleri değiştirmeyi unutmayınız.
+
+Artık deploy için herşeyimiz hazır. 
+
+Proje dizininde 
+
+`cap staging deploy:setup`
+`cap staging deploy:cold`
+
+komutlarını çalıştırarak ilk deployumuzu yapıyoruz. Bundan sonraki deploylar için `cap staging deploy` komutunu çalıştırmak yeterli olacaktır.
+
 # Backup
 Backup işlemleri için [backup](https://github.com/meskyanichi/backup) gemini kullanıyoruz. Veritabanı yedeği, assets(resim, video) yedekleri ve log yedeklerini almamız yeterli. Uygulamalarımızı githubda geliştirdiğimiz için uygulamanın yedeğini alma ihtiyacı duymuyoruz. Yedeği hem locale hemde yedek işlemleri için ayırdığımız sunucuya alıyoruz.
 
