@@ -443,7 +443,7 @@ Veritabanı yedeği, assets(resim, video) yedekleri ve log yedeklerini almamız 
 Uygulamalarımızı githubda geliştirdiğimiz için uygulamanın yedeğini alma ihtiyacı duymuyoruz. 
 Yedeği hem locale hemde yedek işlemleri için ayırdığımız sunucuya alıyoruz.
 
-### Log Yedekleri
+### Log Yedekleri ve Log rotation
 Log dosyalarının çok şişmesi genel problemimiz. Biz bunu nasıl çözüyoruz ? Linux logrotate kullanıyoruz. 
 Logrotate log dosyalarını rotate ederek şişmesini önler.
 Logrotate kullanmak için `/etc/logrotate.conf` dosyasına aşağıdaki kodları ekliyoruz.
@@ -462,6 +462,7 @@ Logrotate kullanmak için `/etc/logrotate.conf` dosyasına aşağıdaki kodları
 }
 ```
 Sıkıştırılmış log dosyalarının backup gemi ile yedeğini alıyoruz.
+
 # Monitoring
 ## Exception Notification (Hata Bildirici)
 Sunucudaki 500 hatalrından haberdar olmak için 
