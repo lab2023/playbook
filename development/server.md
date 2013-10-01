@@ -249,6 +249,17 @@ $ sudo apt-get update
 $ sudo apt-get install nodejs
 ```
 
+Evet. Deploy için gereken tüm temel bileşenleri sunucuya kurduk. Bu aşamadan sonra size bir veritabanı sunucusu gerekmekte.
+Bunun için 2 yöntem tercih edebilirsiniz. 1. halihazırda kurduğunuz sunucunun üzerine bir veritabanı yönetim sistemi kurabilir
+veya 2. bir veritabanı sunucusu oluşturabilirsiniz. Biz genellikle veritabanı ile application sunucusunu ayırmayı
+tercih ettiğimizden bu sunucunun üzerine postgresql kurmuyoruz.
+
+Ayrı bir sunucuda (veya bu sunucuda) jasıl Postgresql kurmanız gerektiğii öğrenmek istiyorsanız 
+[PostgreSQL Veritabanı Kurulumu](https://github.com/lab2023/playbook/blob/master/development/database.md#kurulum) 
+kaynağını ziyaret edebilirsiniz.
+
+Veritabanı sunucunuz da hazırlandıktan sonra artık rails application'ununuz Capistrano ile deploy edebilirsiniz...
+
 # Capistrano & Unicorn
 
 `gem install capistrano`
