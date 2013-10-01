@@ -1,5 +1,3 @@
-# Capistrono
-
 # Ubuntu Server 12.10
 
 Ubuntu Server'ı kurup root kullanıcısı ile terminalden ssh bağlantısını oluşturduğunuzu varsayıyoruz. 
@@ -243,9 +241,7 @@ $ apt-get update
 $ apt-get install nodejs
 ```
 
-# Unicorn
-
-# Capistrano
+# Capistrano & Unicorn
 
 `gem install capistrano`
 
@@ -399,7 +395,7 @@ Gemfile a `gem 'unicorn'` ekleyelim. `config/unicorn_init_production` ve `config
 
  server {
    listen 80;
-   server_name *.tatilkiralamasistemi.com tatilkiralamasistemi.com;
+   server_name *.example.com example.com;
    root /home/deployer/apps/project_name/current/public;
 
    location ^~ /assets/ {
@@ -426,18 +422,30 @@ Gemfile a `gem 'unicorn'` ekleyelim. `config/unicorn_init_production` ve `config
 
 Artık deploy için herşeyimiz hazır. 
 
-Proje dizininde 
+Proje dizininde;
+
+*Staging deploy için*
 
 `cap staging deploy:setup`
 `cap staging deploy:cold`
 
-komutlarını çalıştırarak ilk deployumuzu yapıyoruz. Bundan sonraki deploylar için `cap staging deploy` komutunu çalıştırmak yeterli olacaktır.
+*Production deploy için*
+
+`cap deploy:setup`
+`cap deploy:cold`
+
+komutlarını çalıştırarak ilk deployumuzu yapıyoruz. Bundan sonraki deploylar için `cap staging deploy` 
+veya `cap deploy` komutunu çalıştırmak yeterli olacaktır.
 
 # Backup
-Backup işlemleri için [backup](https://github.com/meskyanichi/backup) gemini kullanıyoruz. Veritabanı yedeği, assets(resim, video) yedekleri ve log yedeklerini almamız yeterli. Uygulamalarımızı githubda geliştirdiğimiz için uygulamanın yedeğini alma ihtiyacı duymuyoruz. Yedeği hem locale hemde yedek işlemleri için ayırdığımız sunucuya alıyoruz.
+Backup işlemleri için [backup](https://github.com/meskyanichi/backup) gemini kullanıyoruz. 
+Veritabanı yedeği, assets(resim, video) yedekleri ve log yedeklerini almamız yeterli. 
+Uygulamalarımızı githubda geliştirdiğimiz için uygulamanın yedeğini alma ihtiyacı duymuyoruz. 
+Yedeği hem locale hemde yedek işlemleri için ayırdığımız sunucuya alıyoruz.
 
 ### Log Yedekleri
-Log dosyalarının çok şişmesi genel problemimiz. Biz bunu nasıl çözüyoruz ? Linux logrotate kullanıyoruz . Logrotate log dosyalarını rotate ederek şişmesini önler.
+Log dosyalarının çok şişmesi genel problemimiz. Biz bunu nasıl çözüyoruz ? Linux logrotate kullanıyoruz. 
+Logrotate log dosyalarını rotate ederek şişmesini önler.
 Logrotate kullanmak için `/etc/logrotate.conf` dosyasına aşağıdaki kodları ekliyoruz.
 
 ```bash
@@ -456,6 +464,12 @@ Logrotate kullanmak için `/etc/logrotate.conf` dosyasına aşağıdaki kodları
 Sıkıştırılmış log dosyalarının backup gemi ile yedeğini alıyoruz.
 # Monitoring
 ## Exception Notification (Hata Bildirici)
-Sunucudaki 500 hatalrından haberdar olmak için [exception_notification](https://github.com/smartinez87/exception_notification) gemini kulanıyoruz. Gem sunucu 500 verirse anında bize mail atıyor. Gemin kullanımı ile ilgili şu yazıyı http://www.muhammetdilek.com/blog/2013/04/04/exception-notification-hata-bildirici/ okuyabilirsiniz.
+Sunucudaki 500 hatalrından haberdar olmak için 
+[exception_notification](https://github.com/smartinez87/exception_notification) gemini kulanıyoruz. 
+Gem sunucu 500 verirse anında bize mail atıyor. 
+Gemin kullanımı ile ilgili şu yazıyı http://www.muhammetdilek.com/blog/2013/04/04/exception-notification-hata-bildirici/ 
+okuyabilirsiniz.
 
 # Heroku
+
+Hazırlanıyor...
