@@ -443,6 +443,53 @@ Veritabanı yedeği, assets(resim, video) yedekleri ve log yedeklerini almamız 
 Uygulamalarımızı githubda geliştirdiğimiz için uygulamanın yedeğini alma ihtiyacı duymuyoruz. 
 Yedeği hem locale hemde yedek işlemleri için ayırdığımız sunucuya alıyoruz.
 
+### Capistrano ile deploydan önce yedek almak
+
+Deploydan önce yedek alacak komutu çalıştırtmalıyız. Tabi bunun için backup geminin kurulu olması gerekmektedir. Backup kurulum işleminide capistranoya yaptıralım.
+
+Aşağıdaki task' i `deploy.rb` nin içine ekleyelim.
+
+```ruby
+namespace :deploy do
+  task :configure_backup do
+    on_rollback do
+      puts 'I can not install backup gem.'
+    end
+    puts "Create backup model"
+    run "backup generate:model -t #{application} --storages='local' --compressors='gzip' --databases='postgresql'"
+    puts "Now edit ~/Backup/models/#{application}.rb"
+  end
+end
+```
+
+`cap deploy:cold` işleminden sonra bu task' i calıştırmak için şu satırı ekleyelim.
+
+```ruby
+after 'deploy:cold', 'deploy:configure_backup'
+```
+Sunucuda backup modelinizin bilgilerini değiştirmeyi unutmayın. `~/Backup/models/project_name.rb`
+
+Şimdi de her deployan önce yedek alcak bir task yazalım.
+
+```ruby
+namespace :deploy do
+  task :backup do
+    transaction do
+      on_rollback do
+        puts 'I can not backup.'
+      end
+      run "backup perform --trigger #{application}"
+    end
+
+  end
+end
+```
+
+Bunuda `deploy.rb` dosyasına ekleyelim. Her `cap deploy`işleminden önce bu task' i çalıştırmak için aşağıdaki satırı ekleyelim
+```ruby
+before 'deploy', 'deploy:backup'
+```
+
 ### Log Yedekleri ve Log rotation
 Log dosyalarının çok şişmesi genel problemimiz. Biz bunu nasıl çözüyoruz ? Linux logrotate kullanıyoruz. 
 Logrotate log dosyalarını rotate ederek şişmesini önler.
