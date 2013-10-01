@@ -220,6 +220,14 @@ $ ruby -v
 Eğer yukarıdakı adımları izleyip ruby versiyonunu doğruladıysanız işlem tamamlanmış demektir. 
 Artık Rbenv aktif ve ilgili ruby versiyonu sunucunuza kurulmuş demektir.
 
+# RubyGems
+
+Kurulumlara başlamadan önce rubygems'i güncellemek önerilir. Aşağıdaki komutu çalıştırın.
+
+```bash
+gem update --system
+```
+
 # Bundler
 
 Rbenv kurumulundan hemen sonra sisteme bundler gem'i kurmamız gerekmekte. Aşağıdaki komutları çalıştırın.
