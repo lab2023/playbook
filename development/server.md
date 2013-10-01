@@ -225,7 +225,7 @@ Artık Rbenv aktif ve ilgili ruby versiyonu sunucunuza kurulmuş demektir.
 Kurulumlara başlamadan önce rubygems'i güncellemek önerilir. Aşağıdaki komutu çalıştırın.
 
 ```bash
-gem update --system
+$ gem update --system
 ```
 
 # Bundler
@@ -244,9 +244,9 @@ $ bundle -v
 En temel haliyle Rails projelerinde assets-precompile işlemleri için node.js'in de sunucuda kurulu olması gerekmektedir.
 
 ```bash
-$ add-apt-repository ppa:chris-lea/node.js
-$ apt-get update
-$ apt-get install nodejs
+$ sudo add-apt-repository ppa:chris-lea/node.js
+$ sudo apt-get update
+$ sudo apt-get install nodejs
 ```
 
 # Capistrano & Unicorn
