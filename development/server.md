@@ -269,10 +269,8 @@ Veritabanı sunucunuz da hazırlandıktan sonra artık rails application'ununuz 
 Gemleri kurduktan sonra `capify .` komutunu çalıştıralım. Oluşan `config/deploy.rb` dosyasını aşağıdaki gibi düzenleyelim.
 
 ```ruby
-# -*- encoding : utf-8 -*-
 require "bundler/capistrano"
-require "whenever/capistrano"
-
+#require "whenever/capistrano"
 
 set :stages, %w(staging production)
 set :default_stage, "production"
@@ -340,7 +338,7 @@ namespace :deploy do
 
   desc "Update the crontab file"
   task :update_crontab, :roles => :db do
-    run "cd #{release_path} && whenever --update-crontab #{application}"
+    #run "cd #{release_path} && whenever --update-crontab #{application}"
   end
   after "deploy:update_crontab", "deploy:resque_setup"
 
@@ -368,11 +366,10 @@ set :rails_env, 'production'
 namespace :deploy do
   task :setup_config, roles: :app do
     # Production
-    sudo "ln -nfs #{current_path}/config/nginx.conf /etc/nginx/sites-enabled/#{application}"
-
+    sudo "ln -nfs #{current_path}/config/nginx.#{rails_env}.conf /etc/nginx/sites-enabled/#{application}"
     sudo "ln -nfs #{current_path}/config/unicorn_init_#{rails_env}.sh /etc/init.d/unicorn_#{application}"
     run "mkdir -p #{shared_path}/config"
-    put File.read("config/database.example.yml"), "#{shared_path}/config/database.yml"
+    put File.read("config/database.example.#{rails_env}.yml"), "#{shared_path}/config/database.yml"
     puts "Now edit the config files in #{shared_path}."
   end
 end
@@ -386,26 +383,36 @@ set :rails_env, 'staging'
 namespace :deploy do
   task :setup_config, roles: :app do
     # Staging
-    sudo "ln -nfs #{current_path}/config/nginx.conf /etc/nginx/sites-enabled/#{application}"
-
+    sudo "ln -nfs #{current_path}/config/nginx.#{rails_env}.conf /etc/nginx/sites-enabled/#{application}"
     sudo "ln -nfs #{current_path}/config/unicorn_init_#{rails_env}.sh /etc/init.d/unicorn_#{application}"
     run "mkdir -p #{shared_path}/config"
-    put File.read("config/database.example.yml"), "#{shared_path}/config/database.yml"
+    put File.read("config/database.example.#{rails_env}.yml"), "#{shared_path}/config/database.yml"
     puts "Now edit the config files in #{shared_path}."
   end
 end
 ```
 
-Gemfile a `gem 'unicorn'` ekleyelim. `config/unicorn_init_production` ve `config/unicorn_init_staging` dosyalarını oluşturalım. Dosyaları şu şekilde güncelleyelim.
+Gemfile a `gem 'unicorn'` ekleyelim. `config/unicorn_init_production.sh` ve `config/unicorn_init_staging.sh` 
+dosyalarını oluşturalım. Dosyaları şu şekilde güncelleyelim.
 
 * https://gist.github.com/muhammetdilek/d45a30d5fd26889ef5ea
 * https://gist.github.com/muhammetdilek/d37e6b31d1b02e652255
 
-`project_name` kısmını proje ismiyle değiştiriniz.
+Bu dosyalardan `project_name` kısmını proje ismiyle değiştirmeyi unutmayınız.
 
-`config/database.example.yml` dosyasını oluşturup sunucu için kullancağınız veritabnı bilgilerini yazınız.
+Ardından yukarıdaki dosyaları çalıştırılabilir hale getirmek için, aşağıdakı komutu konsoldan çalıştırın.
 
-`config/nginx.conf` dosyasını oluşturup aşağıdaki gibi güncelleyiniz.
+```bash
+$ chmod +x config/unicorn_init_production.sh && chmod +x config/unicorn_init_staging.sh
+```
+Ardından;
+
+`config/database.example.staging.yml` ve `config/database.example.production.yml` dosyalarını oluşturup 
+staging ve production sunucu için kullancağınız veritabanı bilgilerini ilgili environment değerleri ile oluşturunuz.
+
+`config/nginx.staging.conf` ve `config/nginx.production.conf` dosyasını oluşturup aşağıdaki gibi güncelleyiniz.
+Bu aşamada eğer staging ve production sunucularında farklı nginx ayarları yapmak isterseniz dosyaları modifiye edebilirsiniz.
+Örneğin. Staging sunucu icin domain sadece ```stage.example.com``` şeklinde kullanılabilir.
 
 ```shell
  upstream project_name {
@@ -437,9 +444,9 @@ Gemfile a `gem 'unicorn'` ekleyelim. `config/unicorn_init_production` ve `config
  }
 ```
 
-`project_name` olan yerleri değiştirmeyi unutmayınız.
+`project_name` olan yerleri proje ismi ile değiştirmeyi unutmayınız.
 
-Artık deploy için herşeyimiz hazır. 
+Artık deploy için hazırız.
 
 Proje dizininde;
 
