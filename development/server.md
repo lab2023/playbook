@@ -519,6 +519,7 @@ before 'deploy', 'deploy:backup'
 ### Log Yedekleri ve Log rotation
 Log dosyalarının çok şişmesi genel problemimiz. Biz bunu nasıl çözüyoruz ? Linux logrotate kullanıyoruz. 
 Logrotate log dosyalarını rotate ederek şişmesini önler.
+Öncelikle kurulu değilse `sudo apt-get install logrotate` komutu ile log ratator'ı kuruyoruz.
 Logrotate kullanmak için `/etc/logrotate.conf` dosyasına aşağıdaki kodları ekliyoruz.
 
 ```bash
@@ -531,9 +532,25 @@ Logrotate kullanmak için `/etc/logrotate.conf` dosyasına aşağıdaki kodları
   delaycompress # Bir sonraki log ortasyonuna kadar sıkıştırmayı beklet. Yani sıkıştırma
   notifempty # Log dosyası boş ise rotate etme
   copytruncate # O anki yazılan log dosyasını rotate ederken rotate anında yazılan verile kaybetmemek için
-  sizem 1024 # Magabayt olarak boyut 1024 olsun
+  size 1024M # Magabayt olarak boyut 1024 olsun
 }
 ```
+Ardından logrotator günlük olarak çalışıp yedekleme işlemlerini yapacaktır
+Eğer daha önceli log dosyalarını o an sıkıştırmak istek
+
+```bash
+sudo logrotate -f /etc/logrotate.conf
+```
+
+komutuyla logrotator'ı çalıştırabiliriz.
+
+Ayrıca log rotatorda işlenecek log dosyalarını görmek için
+
+```bash
+cat /var/lib/logrotate/status
+```
+komutunu kullanabiliriz.
+
 Sıkıştırılmış log dosyalarının backup gemi ile yedeğini alıyoruz.
 
 # Monitoring
