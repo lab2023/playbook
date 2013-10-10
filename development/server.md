@@ -210,11 +210,11 @@ $ mkdir -p ~/.rbenv/plugins
 $ cd ~/.rbenv/plugins
 $ git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 $ git clone https://github.com/sstephenson/rbenv-gem-rehash.git ~/.rbenv/plugins/rbenv-gem-rehash
-$ rbenv install 2.0.0-p0
+$ rbenv install 2.0.0-p247
 $ rbenv rehash
-$ rbenv global 2.0.0-p0
+$ rbenv global 2.0.0-p247
 $ ruby -v
-# ruby 2.0.0p0 (2013-02-24 revision 39474) [x86_64-linux]
+# ruby 2.0.0p247 (2013-06-27 revision 41674) [x86_64-linux]
 ```
 
 Eğer yukarıdakı adımları izleyip ruby versiyonunu doğruladıysanız işlem tamamlanmış demektir. 
