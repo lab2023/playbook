@@ -524,7 +524,7 @@ Logrotate kullanmak için `/etc/logrotate.conf` dosyasına aşağıdaki kodları
 
 ```bash
 # Rotate Rails application logs
-/home/deployer/apps/birekmek/current/log/*.log {
+/home/deployer/apps/project/current/log/*.log {
   daily #Bu işlemi günlük yap
   missingok # İşlem yapılacak log dosyaları eksik ise hata verme
   rotate 7 # 7 tane dosya tut
