@@ -536,7 +536,7 @@ Logrotate kullanmak için `/etc/logrotate.conf` dosyasına aşağıdaki kodları
 }
 ```
 Ardından logrotator günlük olarak çalışıp yedekleme işlemlerini yapacaktır
-Eğer daha önceli log dosyalarını o an sıkıştırmak istek
+Eğer daha önceki log dosyalarını o an sıkıştırmak istersek
 
 ```bash
 sudo logrotate -f /etc/logrotate.conf
