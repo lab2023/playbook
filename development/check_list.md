@@ -46,12 +46,12 @@ Aşağıdaki kontrol listesini açık Kaynaklı veya özel projeler için uygula
 
 **Huboard ve topluluk için Github etiketlerini için düzenlemek.**
 
-* 0 – Backlog [HEX: #DDDDDD]
-* 1 – Ready [HEX: #FBCA04]
-* 2 – In Progress [HEX: #07D8E2]
-* 3 – Done [HEX: #02E10C]
-* 4 – Reviewed [HEX: #1007E2]
-* 5 – Rejected [HEX: ##F7C6C7]
+* 0 - Backlog [HEX: #DDDDDD]
+* 1 - Ready [HEX: #FBCA04]
+* 2 - In Progress [HEX: #07D8E2]
+* 3 - Done [HEX: #02E10C]
+* 4 - Reviewed [HEX: #1007E2]
+* 5 - Rejected [HEX: ##F7C6C7]
 * Enhancement [HEX: #84B6EB]
 * Bug [HEX: #FC2929]
 * Future [HEX: #E6E6E6]
