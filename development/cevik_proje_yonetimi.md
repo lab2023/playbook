@@ -9,14 +9,18 @@ Proje yönetimi için çevik süreçler kullanılır.
 
 # Huboard
 
-Huboard' un proje üzerinde uygulanması için github'da aşağıdaki 5 etiket açılır:
+Huboard' un proje üzerinde uygulanması için github'da aşağıdaki 5 + 4 etiket açılır ve ilgli renk kodları düzenlenir:
 
-* 0 - Backlog
-* 1 - Ready
-* 2 - In Progress
-* 3 - Done
-* 4 - Reviewed
-* 5 - Rejected
+* 0 - Backlog [HEX: #DDDDDD]
+* 1 - Ready [HEX: #FBCA04]
+* 2 - In Progress [HEX: #07D8E2]
+* 3 - Done [HEX: #02E10C]
+* 4 - Reviewed [HEX: #1007E2]
+* 5 - Rejected [HEX: ##F7C6C7]
+* Enhancement [HEX: #84B6EB]
+* Bug [HEX: #FC2929]
+* Future [HEX: #E6E6E6]
+* Question [HEX: #CC307C]
 
 Etiketlerin anlamları:
 
