@@ -64,6 +64,15 @@ sudo apt-get update
 sudo apt-get install postgresql-9.2
 ````
 
+**Alternatif Kurulum Senaryosu**
+
+Eğer yukaridaki yöntem başarısız olursa asağıdaki alternatif senaryoyu deneyebilirsiniz.
+
+```bash
+sudo bash -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+sudo apt-get update
+```
+
 **Güncelleme**
 
 ```bash
