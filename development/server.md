@@ -264,8 +264,6 @@ Veritabanı sunucunuz da hazırlandıktan sonra artık rails application'ununuz 
 
 `gem install capistrano`
 
-`gem install capistrano-ext`
-
 Gemleri kurduktan sonra `capify .` komutunu çalıştıralım. Oluşan `config/deploy.rb` dosyasını aşağıdaki gibi düzenleyelim.
 
 ```ruby
@@ -457,7 +455,7 @@ staging ve production sunucu için kullancağınız veritabanı bilgilerini ilgi
 
 `config/nginx.staging.conf` ve `config/nginx.production.conf` dosyasını oluşturup aşağıdaki gibi güncelleyiniz.
 Bu aşamada eğer staging ve production sunucularında farklı nginx ayarları yapmak isterseniz dosyaları modifiye edebilirsiniz.
-Örneğin. Staging sunucu icin domain sadece ```stage.example.com``` şeklinde kullanılabilir.
+Örneğin. Staging sunucu cicin domain sadece ```stage.example.com``` şeklinde kullanılabilir.
 
 ```shell
  upstream project_name {
