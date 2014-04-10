@@ -455,7 +455,7 @@ staging ve production sunucu için kullancağınız veritabanı bilgilerini ilgi
 
 `config/nginx.staging.conf` ve `config/nginx.production.conf` dosyasını oluşturup aşağıdaki gibi güncelleyiniz.
 Bu aşamada eğer staging ve production sunucularında farklı nginx ayarları yapmak isterseniz dosyaları modifiye edebilirsiniz.
-Örneğin. Staging sunucu cicin domain sadece ```stage.example.com``` şeklinde kullanılabilir.
+Örneğin. Staging sunucu için domain sadece ```stage.example.com``` şeklinde kullanılabilir.
 
 ```shell
  upstream project_name {
