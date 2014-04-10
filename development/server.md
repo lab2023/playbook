@@ -392,13 +392,58 @@ namespace :deploy do
 end
 ```
 
-Gemfile a `gem 'unicorn'` ekleyelim. `config/unicorn_init_production.sh` ve `config/unicorn_init_staging.sh` 
+Gemfile a `gem 'unicorn'` ekleyelim. Öncelikle `config/unicorn.rb` dosyasını oluşturup Unicorn ayarlarını yapalım.
+
+```ruby
+@shared_dir = "/home/deployer/apps/project_name/shared/"
+@working_dir = "/home/deployer/apps/project_name/current/"
+
+worker_processes 2
+working_directory @working_dir
+timeout 30
+
+listen "/tmp/sockets/unicorn_project_name.sock", :backlog => 64
+
+pid_file = "#{@shared_dir}pids/unicorn.pid"
+old_pid = "#{pid_file}.oldbin"
+
+pid pid_file
+
+stderr_path "#{@shared_dir}log/unicorn.stderr.log"
+stdout_path "#{@shared_dir}log/unicorn.stdout.log"
+
+preload_app true
+
+# combine Ruby 2.0.0dev or REE with "preload_app true" for memory savings
+# http://rubyenterpriseedition.com/faq.html#adapt_apps_for_cow
+preload_app true
+GC.respond_to?(:copy_on_write_friendly=) and
+  GC.copy_on_write_friendly = true
+
+check_client_connection false
+
+before_fork do |server, worker|
+  # the following is highly recomended for Rails + "preload_app true"
+  # as there's no need for the master process to hold a connection
+  defined?(ActiveRecord::Base) and
+    ActiveRecord::Base.connection.disconnect!
+end
+
+after_fork do |server, worker|
+  # the following is *required* for Rails + "preload_app true",
+  defined?(ActiveRecord::Base) and
+    ActiveRecord::Base.establish_connection
+end
+
+```
+
+Daha sonra `config/unicorn_init_production.sh` ve `config/unicorn_init_staging.sh` 
 dosyalarını oluşturalım. Dosyaları şu şekilde güncelleyelim.
 
 * https://gist.github.com/muhammetdilek/d45a30d5fd26889ef5ea
 * https://gist.github.com/muhammetdilek/d37e6b31d1b02e652255
 
-Bu dosyalardan `project_name` kısmını proje ismiyle değiştirmeyi unutmayınız.
+Bu dosyalarda `project_name` kısmını proje ismiyle değiştirmeyi unutmayınız.
 
 Ardından yukarıdaki dosyaları çalıştırılabilir hale getirmek için, aşağıdakı komutu konsoldan çalıştırın.
 
