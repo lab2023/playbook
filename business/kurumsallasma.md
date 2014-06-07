@@ -3,12 +3,7 @@
 Maillerin imzaları aşağıdaki standartta olacaktır.
 
 ````
-Tayfun Öziş ERİKAN
-lab2023 - internet teknolojileri
-Web Geliştirici & Tasarımcı
-www.lab2023.com
-
-Adres: Pamukkale Teknoloji Geliştirme Bölgesi
-Kuluçka ve İdari Binası B-Blok Z13 Kınıklı / Denizli / TÜRKİYE
-Telefon: +90 258 215 50 10  Fax:  +90 212 381 6220 -  E-posta: info@lab2023.com
+Tayfun Öziş ERİKAN, Genel Koordinatör
+LAB2023 AŞ | www.lab2023.com
+Pamukkale Teknokent D-Blok 116 Denizli / Türkiye
 ````
