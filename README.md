@@ -1,3 +1,3 @@
 # Playbook
 
-lab2023 - internet teknolojileri standartlarının belirlendiği kitaptır.
+lab2023 - bilişim teknolojileri aş standartlarının belirlendiği kitaptır.
