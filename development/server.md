@@ -606,4 +606,5 @@ okuyabilirsiniz.
 
 # Heroku
 
-Hazırlanıyor...
+Bkz:
+[Lab2023 Blog - Rails Uygulamalarını Heroku'da Çalıştırmak](http://lab2023.com/rails-uygulamalarini-heroku-da-calistirmak.html)
