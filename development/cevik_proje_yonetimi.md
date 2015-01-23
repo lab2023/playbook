@@ -5,7 +5,7 @@ Proje yönetimi için çevik süreçler kullanılır.
 * [Çevik Manifesto](http://agilemanifesto.org/iso/tr/)
 * [Çevik İlkeler](http://agilemanifesto.org/iso/tr/principles.html)
 * [Kanban](http://kanban.lab2023.com) için huboard programını kullanıyoruz.
-* Sürüm kontrolü için [semver](http://semver.org/) kullanıyoruz.
+* Sürüm kontrolü için [semver](http://semver.org/) kullanıyorsemuz.
 
 # Huboard
 
@@ -47,7 +47,7 @@ NOT:
 
 # Semantik Versiyonlama
 
-lab2023 olarak www.semver.org adresinde ki standartlara göre versiyonlama yapıyoruz. Bu reponun Türkçesini https://github.com/lab2023/semver/blob/tr_translation/locales/semver.tr.md adresinde bulabilirsiniz.
+lab2023 olarak www.semver.org adresinde ki standartlara göre versiyonlama yapıyoruz. Bu reponun Türkçesini https://github.com/lab2023/semver/blob/master/semver_tr.md adresinde bulabilirsiniz.
 
 **Kurallar**
 
