@@ -17,7 +17,6 @@ Web sitesinin performans analizi için http://gtmetrix.com/ kullanıyoruz.
 Github issue ve milestonelardan aldığı bilgiler ile Scrum yapmamıza yarayan yazılımdır. Kendisini lab2023.com altına kuruyoruz.
 
 * http://huboard.com/
-* http://kanban.lab2023.com
 
 ## İş Takibi
 
@@ -39,5 +38,8 @@ Bizler Ruby uygulamalarında Whenever gemini kullanmamıza rağmen manuel cron y
 
 ## JS den CoffeScript
 
-* http://js2cs.nodejitsu.com/
+* http://js2coffee.org/
 
+## Css den SASS
+
+* http://css2sass.herokuapp.com/
