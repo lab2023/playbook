@@ -5,7 +5,7 @@ Proje yönetimi için çevik süreçler kullanılır.
 * [Çevik Manifesto](http://agilemanifesto.org/iso/tr/)
 * [Çevik İlkeler](http://agilemanifesto.org/iso/tr/principles.html)
 * [Kanban](http://kanban.lab2023.com) için huboard programını kullanıyoruz.
-* Sürüm kontrolü için [semver](http://semver.org/) kullanıyorsemuz.
+* Sürüm kontrolü için [semver](http://semver.org/) kullanıyoruz.
 
 # Huboard
 
