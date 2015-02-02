@@ -15,8 +15,8 @@ Peki nedir bu beş aşama?
 Peki AARRR bize ne sağlar?
 
 * Ekipte ki herkesin aynı dili konuşmasını sağlar.
-* Ürünün gidaşınta bir hata varsa hatanın tespiti daha kolay olacaktır.
-* AARRR girişimciya yatırımcılara somut veriler sunmasını sağlar.
+* Ürünün gidişatında bir hata varsa hatanın tespiti daha kolay olacaktır.
+* AARRR girişimcinin yatırımcılara somut veriler sunmasını sağlar.
 * AARRR size başarılı olup olmadığınızı söyler.
 
 Girişimci, her seferinde bir aşamaya odaklanmalıdır. Aksi takdirde sıkıntı yaşar.
@@ -67,7 +67,7 @@ Kanalları doğru seçmeliyiz. Seçim işinde;
 
 NOT: Amaç çok kişiye ulaşmak değil müşteri kitlemize ulaşmaktır. Bu bağlamda 100.000 üyesi olan genel bir foruma reklam vermek yerine 1000 üyesi olan müşterilerimizin olduğu bir foruma reklam vermek daha iyidir.
 
-Yukarıda ki kanallardan arama motorları, davetiye sistemi, haber grubu, viral, blog, sosyal medya paylaşımları, widgetler ücretsiz olanlardır. Eğer müşteri segmentinize bunlar ile ulaşabiliyorsanız şanslısınız.
+Yukarıdaki kanallardan arama motorları, davetiye sistemi, haber grubu, viral, blog, sosyal medya paylaşımları, widgetler ücretsiz olanlardır. Eğer müşteri segmentinize bunlar ile ulaşabiliyorsanız şanslısınız.
 
 ### Aktivasyon (Activition)
 
