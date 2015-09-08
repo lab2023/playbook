@@ -1,6 +1,6 @@
 # Ruby ekosistemi
 
-lab2023 olarak projelerimizi daha çok Ruby ekosisteminde yapmaktıyız.
+lab2023 olarak projelerimizi daha çok Ruby ekosisteminde yapmaktayız.
 
 ## Ruby
 
