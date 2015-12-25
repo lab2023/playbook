@@ -1,7 +1,9 @@
 
 #### [Current]
+ * [f9fcdf2](../../commit/f9fcdf2) - __(Tayfun Öziş ERİKAN)__ Typo fixed. Gitignore file was updated.
 
-#### 
+#### v1.0.0
+ * [7bee2ec](../../commit/7bee2ec) - __(Tayfun Öziş ERİKAN)__ Bump version v1.0.0
  * [9bc23b5](../../commit/9bc23b5) - __(Tayfun Öziş ERİKAN)__ Typo fixed
  * [067806b](../../commit/067806b) - __(Tayfun Öziş ERİKAN)__ Typo fixed
  * [e8d918d](../../commit/e8d918d) - __(Tayfun Öziş ERİKAN)__ Merge pull request [#19](../../issues/19) from eyupatis/patch-1
