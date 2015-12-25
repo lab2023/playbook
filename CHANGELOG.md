@@ -1,5 +1,9 @@
 
 #### [Current]
+ * [668e7d7](../../commit/668e7d7) - __(Tayfun Öziş ERİKAN)__ Typo fixed
+
+#### v1.0.1
+ * [1ddc6f2](../../commit/1ddc6f2) - __(Tayfun Öziş ERİKAN)__ Bump version v1.0.1
  * [f9fcdf2](../../commit/f9fcdf2) - __(Tayfun Öziş ERİKAN)__ Typo fixed. Gitignore file was updated.
 
 #### v1.0.0
